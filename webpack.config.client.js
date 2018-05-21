@@ -50,11 +50,18 @@ module.exports = {
         test: /\.(css|scss|sass)$/,
         use: [
           MiniCssExtractPlugin.loader,
+          /* {
+            loader: 'style-loader',
+            options: {
+              sourceMap: true
+            }
+          }, */
           {
             loader: 'css-loader',
             options: {
               sourceMap: true,
-              publicPath: '/css/'
+              outputPath: '/statics/css/',
+              publicPath: '/statics/css/'
             }
           }
           // {
@@ -64,6 +71,30 @@ module.exports = {
           //   }
           // }
         ]
+      },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+              outputPath: '/images/',
+              publicPath: '/statics/images/'
+            }
+          }
+        ]
+      },
+      {
+        test: /\.(woff|woff2|ttf|eot)$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            outputPath: 'fonts/',
+            publicPath: '/statics/fonts/',
+            name: '[name].[ext]'
+          }
+        }
       }
     ]
   },
@@ -77,6 +108,10 @@ module.exports = {
       }
     }, */
     // compress: true,
+    overlay: {
+      warnings: true,
+      errors: true
+    },
     port: 4001
   },
   //  performance: {
@@ -90,6 +125,12 @@ module.exports = {
   // },
   devtool: isDev ? 'cheap-module-source-map' : 'source-map',
   plugins: [
+    new MiniCssExtractPlugin(
+      {
+        filename: 'css/index.css',
+        chunkFilename: 'index.css'
+      }
+    ),
     new webpack.DefinePlugin({
       'process.env.RUN_ENV': JSON.stringify(process.env.RUN_ENV),
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)

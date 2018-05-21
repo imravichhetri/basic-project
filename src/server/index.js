@@ -11,5 +11,5 @@ init(app).then((data) => {
   })
 })
   .catch(e => {
-    console.log('Error occurred')
+    console.log('Error occurred', e)
   })
