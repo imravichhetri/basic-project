@@ -10,7 +10,9 @@ import { withStyles } from "@material-ui/core/styles";
 import { Icon, Input } from "semantic-ui-react";
 import Avatar from '@material-ui/core/Avatar';
 import {connect} from 'react-redux'
+import {bindActionCreators} from 'redux'
 
+import {submitUsername} from '../../redux/actions/github'
 import {LoadingContainer} from '../../components/Loading'
 import { styles } from "./styles.js";
 import "./styles.css";
@@ -75,8 +77,8 @@ class Dashboard extends React.Component {
 }
 
 const mapStateToProps = state =>state// ({ctr:state.username, username:state.username})
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = dispatch => bindActionCreators({submitClickHandler: submitUsername},dispatch) /*({
 	submitClickHandler: (username)=>dispatch({type: 'SUBMITTED_USERNAME', payload:{username}})
-})
+})*/
 
 export default connect(mapStateToProps,mapDispatchToProps)(Dashboard); //withStyles(styles)(Dashboard);
