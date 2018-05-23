@@ -1,11 +1,11 @@
+import * as actionTypes from '../actions'
 const initialState = {
   counter: 0,
   username: '<Username>'
 }
 
 // Reducer
-const rootReducer = (state = initialState, action) => {
-  console.log(state, 'state')
+const githubReducer = (state = initialState, action) => {
   switch (action.type) {
     case 'INC_COUNTER': {
       return {
@@ -19,8 +19,7 @@ const rootReducer = (state = initialState, action) => {
         counter: state.counter + action.value
       }
     }
-    case 'SUBMITTED_USERNAME': {
-      console.log(action, state)
+    case actionTypes.USER_SUBMIT : {
       return {store: {
         ...state.store,
         username: action.payload.username
@@ -30,4 +29,4 @@ const rootReducer = (state = initialState, action) => {
   return {store: state}
 }
 
-export default rootReducer
+export default githubReducer

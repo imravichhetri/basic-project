@@ -35,7 +35,7 @@ class ProfileCard extends React.Component {
                 R
               </Avatar>
             }
-            title={this.props.store.username}
+            title={this.props.githubReducers.store.username}
             subheader="September 14, 2016"
           />
           <CardContent className='card-content'>

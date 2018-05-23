@@ -25,13 +25,12 @@ class Dashboard extends React.Component {
 			navOpen: false
 		};
 		this.textInput=React.createRef()
-		console.log(this.props,'props')
 	}
 
-	_searchButtonHandler= (event)=>{
+	_searchButtonHandler = (event)=>{
 		// event.prevent.default()
 		console.log(this.textInput.current.value ,'value')
-		this.props.submitClickHandler(this.textInput.current.value)
+		this.props.actions.submitClickHandler(this.textInput.current.value)
 	};
 
 	_header = () => (
@@ -77,8 +76,6 @@ class Dashboard extends React.Component {
 }
 
 const mapStateToProps = state =>state// ({ctr:state.username, username:state.username})
-const mapDispatchToProps = dispatch => bindActionCreators({submitClickHandler: submitUsername},dispatch) /*({
-	submitClickHandler: (username)=>dispatch({type: 'SUBMITTED_USERNAME', payload:{username}})
-})*/
+const mapDispatchToProps = dispatch =>({actions:  bindActionCreators({submitClickHandler: submitUsername},dispatch)})
 
-export default connect(mapStateToProps,mapDispatchToProps)(Dashboard); //withStyles(styles)(Dashboard);
+export default connect(mapStateToProps,mapDispatchToProps)(Dashboard);

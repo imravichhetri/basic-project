@@ -11,14 +11,13 @@ export default class App extends React.Component {
   }
 
   _allRoutes = ()=>(
-  	<Dashboard>
-  		<Switch>
-  			<Route path="/" component={ProfileContainer}/>
-  		</Switch>
-  	</Dashboard>
+    <Dashboard>
+      <Switch>
+        <Route path="/github/users/:username" component={ProfileContainer}/>
+      </Switch>
+    </Dashboard>
   )
   render () {
-  	console.log(this._allRoutes())
     return (
       <BrowserRouter>
         {this._allRoutes()}
