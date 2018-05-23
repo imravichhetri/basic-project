@@ -7,7 +7,7 @@ const init = async app => {
     ({ route, url }) => {
       if (url) {
         app.use(url, route)
-      } else {
+      } else if (route !== undefined) {
         app.use(route)
       }
     }

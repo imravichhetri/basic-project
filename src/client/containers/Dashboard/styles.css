@@ -1,6 +1,6 @@
 .app-bar {
     background-color: 'white';
-    height: '3.5rem'
+    height: 3.5rem
   }
 .root: {
     flexGrow: 1
@@ -63,4 +63,14 @@
 
 .text-input:focus {
   color:'black';
+}
+
+.body-container{
+  margin-top: 3.5rem;
+  height: calc(100%-3.5rem);
+}
+.avatar-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

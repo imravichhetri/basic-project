@@ -1,6 +1,6 @@
 import {Router as router} from 'express'
 
-import {userData} from '../services/userDetails'
+import {userData} from '../../services/userDetails'
 
 const Router = router()
 
