@@ -1,11 +1,11 @@
 import { Router as router } from 'express'
-import allGithubRoutes from './*'
+import allWeatherRoutes from './*'
 import { each as _each, sortBy as _sort } from 'lodash'
 
 const Router = router()
 
 _each(
-  _sort(allGithubRoutes, ({ route, url }) => url).reverse(),
+  _sort(allWeatherRoutes, ({ route, url }) => url).reverse(),
   ({ route, url }) => {
     if (url) {
       Router.use(url, route)
@@ -14,6 +14,5 @@ _each(
     }
   }
 )
-
-export const url = '/github'
+export const url = '/weather'
 export const route = Router

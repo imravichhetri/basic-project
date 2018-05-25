@@ -1,10 +1,12 @@
 import {combineReducers} from 'redux'
 
 import githubReducers from './github'
+import dashboardReducers from './dashboard'
 
 // Reducer
 const rootReducer = combineReducers({
-  githubReducers
+  githubReducers,
+  dashboardReducers
 })
 
 export default rootReducer

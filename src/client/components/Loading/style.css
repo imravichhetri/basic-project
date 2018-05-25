@@ -1,3 +1,7 @@
 .progress-bar{
 	background-color:  'green' !important
 }
+
+.progress-bar-container{
+	margin-top: auto
+}

@@ -12,24 +12,32 @@ import Avatar from '@material-ui/core/Avatar';
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
 
-import {submitUsername} from '../../redux/actions/github'
+import {sendUsername} from '../../redux/actions'
 import {LoadingContainer} from '../../components/Loading'
 import { styles } from "./styles.js";
 import "./styles.css";
 // import 'semantic-ui-css/semantic.min.css'
 
-class Dashboard extends React.Component {
+/*const mapStateToProps = state =>{console.log(state,'state'); return state}// ({ctr:state.username, username:state.username})
+const mapDispatchToProps = dispatch =>({actions:  {
+		submitClickHandler: bindActionCreators(submitClickHandler, dispatch),
+		sendUsername: bindActionCreators(sendUsername,dispatch)
+	}})
+
+@connect(mapStateToProps,mapDispatchToProps)*/
+export default class Dashboard extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			navOpen: false
+			navOpen: false,
+			textValue:''
 		};
 		this.textInput=React.createRef()
 	}
 
 	_searchButtonHandler = (event)=>{
-		// event.prevent.default()
 		console.log(this.textInput.current.value ,'value')
+		this.setState({textValue:this.textInput.current.value})
 		this.props.actions.submitClickHandler(this.textInput.current.value)
 	};
 
@@ -60,7 +68,19 @@ class Dashboard extends React.Component {
 		<React.Fragment>
 			{this._header()}
 			<div className="body-container">
-				{this.props.children}
+				{this.props.children
+						/*const childWIthProps = React.Children.map(this.props.children,(child)=>{
+							return React.cloneElement(child, {
+					      textValue: this.textInput.current.value
+					    })
+						})
+						 React.Children.map(this.props.children,(child)=>{
+							return React.cloneElement(child, /*{
+					      textValue: this.state.textValue,
+					      ...this.props
+					    } this.props)
+						})*/
+				}
 			</div>
 		</React.Fragment>
 	)
@@ -75,7 +95,3 @@ class Dashboard extends React.Component {
 	}
 }
 
-const mapStateToProps = state =>state// ({ctr:state.username, username:state.username})
-const mapDispatchToProps = dispatch =>({actions:  bindActionCreators({submitClickHandler: submitUsername},dispatch)})
-
-export default connect(mapStateToProps,mapDispatchToProps)(Dashboard);
