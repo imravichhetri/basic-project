@@ -31,7 +31,8 @@ export default class ProfileCard extends React.Component {
   constructor(props) {
     super(props);
     this.state={
-      isLoading: this.props.isLoading || false
+      isLoading: this.props.isLoading || false,
+      username: this.props.dashboardReducers.textValue || this.props.match.params.username
     }
   }
 
@@ -106,11 +107,12 @@ export default class ProfileCard extends React.Component {
     ) {
        ProgressBar.hideLoader();
     }
+    console.log(this.props,'ProfileCard Props')
     return (
       <Card className="card-container" raised>
         <Grid container>
           <Grid item xs={10} md={5}>
-            {this._profileCard()}
+            {this.state.username && this._profileCard()}
           </Grid>
           <Grid item md={2} />
           <Grid item xs={10} md={5}>

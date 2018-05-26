@@ -1,6 +1,9 @@
 import axios from 'axios'
 
-import { usersGithub } from '../config/urls'
+import {
+  usersGithubUrl,
+  geocodeUrl,
+  weatherUrl} from '../config/urls'
 
 var axiosInstance = axios.create({
   timeout: 1000 * 60 * 30,
@@ -21,9 +24,19 @@ axiosInstance.defaults.timeout = 1000 * 60 * 30
 } */
 
 const getUserDetails = function (username) {
-  // return axiosInstance.get(`${usersGithub}/${username}`)
-  return axiosInstance.get('http://localhost:3000/data')
+  // return axiosInstance.get(`${usersGithubUrl}/${username}`)
+  return axiosInstance.get('http://localhost:3000/github')
+}
+const getGeoCode = function (address) {
+  // return axiosInstance.get(`${geocodeUrl}/${address}`)
+  return axiosInstance.get('http://localhost:3000/geoLocation')
+}
+const getWeatherDetails = function (longitude, latitude) {
+  // return axiosInstance.get(`${weatherUrl}/${latitude },${longitude}`)
+  return axiosInstance.get('http://localhost:3000/weather')
 }
 export {
-  getUserDetails
+  getUserDetails,
+  getGeoCode,
+  getWeatherDetails
 }

@@ -3,11 +3,8 @@ import { each as _each, sortBy as _sort } from 'lodash'
 
 import allApiRoutes from './*/'
 import githubRouter from './github'
-console.log(allApiRoutes, githubRouter, 'allApiRoutes')
-const Router = router()
-// Router.use('/github', githubRouter)
 
-// const Router = router()
+const Router = router()
 
 _each(
   _sort(allApiRoutes, ({ route, url }) => url).reverse(),
