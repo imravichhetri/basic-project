@@ -19,7 +19,7 @@ import { bindActionCreators } from "redux";
 import { isEqual as _isEqual } from "lodash";
 import { sendUsername } from "../../redux/actions/github";
 import ProgressBar, { LoadingContainer } from "../Loading";
-import "./styles.css";
+import("./styles.css");
 
 /*const mapStateToProps = state => state;
 const mapDispatchToProps = dispatch => ({

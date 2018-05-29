@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from 'react-dom'
+import { render, hydrate } from 'react-dom'
 import { MuiThemeProvider} from '@material-ui/core/styles'
 import { createStore, applyMiddleware, compose } from 'redux'
 import { Provider } from 'react-redux'

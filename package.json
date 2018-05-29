@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODE_ENV=development concurrently -c blue,cyan,magenta \"webpack --watch --config webpack.config.server.js\" \"RUN_ENV=client webpack-dev-server --mode=development -d --inline --no-info --port 4001 --config webpack.config.client.js\"  \" sleep 3 &&  nodemon --inspect  --watch build/server build/server/bundle.js\"",
+    "dev": "NODE_ENV=development concurrently -c blue,cyan,magenta \"webpack --watch --config webpack.config.server.js\" \"RUN_ENV=client webpack-dev-server --mode=development -d --inline --no-info --port 4001 --config webpack.config.client.js\"  \" sleep 3 &&  nodemon --inspect --watch build/server build/server/bundle.js\"",
     "client-build": "NODE_ENV=production webpack --mode=production --config webpack.config.client.js",
     "react-start": "webpack-dev-server --mode=development -d --inline --no-info --port 4001 --config webpack.config.client.js"
   },
@@ -53,6 +53,7 @@
     "import-glob": "^1.5.0",
     "mini-css-extract-plugin": "^0.4.0",
     "nodemon": "^1.17.3",
+    "postcss-loader": "^2.1.5",
     "semantic-ui-less": "^2.3.1",
     "standard": "^11.0.1",
     "style-loader": "^0.21.0",

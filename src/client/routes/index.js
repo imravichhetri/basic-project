@@ -20,6 +20,12 @@ const ProfileContainer = Loadable({
   delay:30
 })
 
+const WeatherForecast = Loadable({
+  loader: ()=>import('../components/WeatherForecast'),
+  loading: ()=>Loading,
+  delay:30
+})
+
 const mapStateToProps=state=>state
 const mapDispatchToProps=dispatch=>({actions:  {
     submitClickHandler: bindActionCreators(submitClickHandler, dispatch),
@@ -32,11 +38,14 @@ export default class App extends React.Component {
     super(props)
   }
 
+  componentDidMount(){
+    console.log('heyo==========')
+  }
   _allRoutes = ()=>(
     <Dashboard {...this.props}>
       <Switch>
         <RouteWithProps path={"/github/user/:username?"} {...this.props} component={ProfileContainer}/>
-        <RouteWithProps path={"/weather/location/:location?"} {...this.props} component={ProfileContainer}/>
+        <RouteWithProps path={"/weather/location/:location?"} {...this.props} component={WeatherForecast}/>
       </Switch>
     </Dashboard>
   )
@@ -50,6 +59,6 @@ export default class App extends React.Component {
 }
 
 const RouteWithProps= ({path,component:Component,...rest})=>{
-  console.log(path,rest,'abc=-==========')
+  console.log(path,rest, Component,'====abc=-==========')
     return <Route path={path} render={props=><Component {...props} {...rest}/>}/>
 }

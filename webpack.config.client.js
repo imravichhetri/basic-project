@@ -66,6 +66,16 @@ module.exports = {
               outputPath: '/statics/css/',
               publicPath: '/statics/css/'
             }
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              config: {
+                path: Path.resolve(__dirname, '../postcss.config.js')
+              },
+              outputPath: '/statics/css/',
+              publicPath: '/statics/css/'
+            }
           }
           // {
           //   loader: 'sass-loader',
@@ -130,7 +140,7 @@ module.exports = {
     new MiniCssExtractPlugin(
       {
         filename: 'css/index.css',
-        chunkFilename: 'index.css'
+        chunkFilename: '[name].[chunkhash].css'
       }
     ),
     new webpack.DefinePlugin({
