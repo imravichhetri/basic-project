@@ -4,7 +4,6 @@ export const userData = async (req, res, next) => {
     const {data} = await getUserDetails(req.params.username)
     res.status(200).send({data})
   } catch (e) {
-    console.log(e.response, 'error')
-    res.status(500).send({ error: 'something blew up' })
+    res.status(500).send({ error: e.response })
   }
 }

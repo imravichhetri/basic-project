@@ -8,9 +8,12 @@ module.exports = {
   target: 'web',
   mode: process.env.NODE_ENV,
   entry: './src/client/index.js',
+  devtool: isDev ? 'cheap-module-eval-source-map' : 'source-map',
   output: {
     path: Path.join(__dirname, 'build/client'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    chunkFilename: '[hash].[id].js',
+    publicPath: '/statics/'
   },
 
   module: {
@@ -123,7 +126,6 @@ module.exports = {
   //     return assetFilename.endsWith('.css') || assetFilename.endsWith('.js')
   //   }
   // },
-  devtool: isDev ? 'cheap-module-source-map' : 'source-map',
   plugins: [
     new MiniCssExtractPlugin(
       {

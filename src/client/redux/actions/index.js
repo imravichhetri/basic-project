@@ -1,7 +1,8 @@
 export {
   submitClickHandler,
   startLoading,
-  stopLoading
+  stopLoading,
+  errorHandler
 } from './dashboard'
 
 export {
@@ -9,6 +10,7 @@ export {
 } from './github'
 
 export const TEXT_SUBMIT = 'TEXT_SUBMIT'
+export const ERROR_OCCURED = 'ERROR_OCCURED'
 export const GITHUB_USER_RESPONSE = 'GITHUB_USER_RESPONSE'
 export const START_LOADING = 'START_LOADING'
 export const STOP_LOADING = 'STOP_LOADING'

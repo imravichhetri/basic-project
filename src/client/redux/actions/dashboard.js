@@ -14,3 +14,11 @@ export const submitClickHandler = textValue => ({
     textValue
   }
 })
+
+export const errorHandler = (error, isError) => ({
+  type: actionTypes.TEXT_SUBMIT,
+  payload: {
+    error,
+    isError
+  }
+})

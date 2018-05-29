@@ -1,3 +1,21 @@
+.content-container{
+  width:100%;
+  height: 100%;
+  position: absolute;
+  right:0;
+  top: 0;
+}
+
+.content-container-nav-open{
+  width: calc(100% - 12rem);
+  height: 100%
+}
+
+.content-container-nav-close{
+  width: 100%;
+  height: 100%
+}
+
 .app-bar {
     background-color: 'white';
     height: 3.5rem
@@ -74,3 +92,15 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.navigation-container{
+  margin-top: 5rem;
+  padding: 0.5rem 0.5rem;
+}
+ .navigation-container-nav-open{
+  width: 10rem;
+}
+
+.navigation-container-nav-close{
+  width: 0rem;
+} 

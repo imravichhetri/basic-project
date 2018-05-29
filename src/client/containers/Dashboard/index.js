@@ -14,6 +14,7 @@ import {bindActionCreators} from 'redux'
 
 import {sendUsername} from '../../redux/actions'
 import {LoadingContainer} from '../../components/Loading'
+import NavigationBar from '../../components/NavigationBar'
 import { styles } from "./styles.js";
 import "./styles.css";
 // import 'semantic-ui-css/semantic.min.css'
@@ -29,7 +30,7 @@ export default class Dashboard extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			navOpen: false,
+			isNavOpen: false,
 			textValue:''
 		};
 		this.textInput=React.createRef()
@@ -45,7 +46,7 @@ export default class Dashboard extends React.Component {
 		<AppBar className="app-bar">
 			<Grid container>
 				<Grid item xs={1} offset={2}>
-					<IconButton className="menu-button">
+					<IconButton className="menu-button" onClick={()=>{this.setState({isNavOpen: !this.state.isNavOpen});console.log('Heyo', this.state)}}>
 						<MenuIcon />
 					</IconButton>
 				</Grid>
@@ -65,9 +66,12 @@ export default class Dashboard extends React.Component {
 	);
 
 	_body = () => (
-		<React.Fragment>
+		<React.Fragment >
+			<div className={`navigation-container navigation-container-${this.state.isNavOpen?'nav-open':'nav-close'}`}>
+				<NavigationBar/>
+			</div>
 			{this._header()}
-			<div className="body-container">
+			<div className={`content-container content-container-${this.state.isNavOpen?'nav-open':'nav-close'}`}>
 				{this.props.children
 						/*const childWIthProps = React.Children.map(this.props.children,(child)=>{
 							return React.cloneElement(child, {
@@ -88,9 +92,9 @@ export default class Dashboard extends React.Component {
 	render() {
 		console.log(this.props,'Dashboard props')
 		return (
-			<React.Fragment>
+			<div className={`dashboard-container dashboard-container-${this.state.isNavOpen?'nav-open':'nav-close'}`}>
 				{this._body()}
-			</React.Fragment>
+			</div>
 		)
 	}
 }

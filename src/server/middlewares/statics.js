@@ -7,7 +7,7 @@ console.log(Path.join(process.cwd(), '/build/client'))
 let mwStaticsClient
 
 if (process.env.NODE_ENV === 'development') {
-  mwStaticsClient = Proxy({ target: 'http://localhost:4001', pathRewrite: { '^/statics': '' } })
+  mwStaticsClient = Proxy({ target: 'http://localhost:4001'})
 }
 const mwStatics = Express.static(
   Path.join(process.cwd(), '/build/client')

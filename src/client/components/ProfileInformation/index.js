@@ -38,7 +38,7 @@ export default class ProfileCard extends React.Component {
 
   componentDidMount() {
     console.log(this.props, "componentDidMount");
-    this.props.actions.sendUsername(this.props.match.params.username);
+    // this.props.actions.sendUsername(this.props.match.params.username);
   }
 
   shouldComponentUpdate(nextProps, nextState) {
@@ -46,6 +46,7 @@ export default class ProfileCard extends React.Component {
   }
 
   componentDidUpdate(prevProps, prevState, snapshot) {
+    console.log(prevProps,this.props,snapshot,'===============')
     if (
       this.props.dashboardReducers.textValue !== prevProps.dashboardReducers.textValue
     ) {

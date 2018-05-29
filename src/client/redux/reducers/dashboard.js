@@ -24,6 +24,13 @@ const dashboardReducers = (state = initialState, action) => {
         textValue: action.payload.textValue
       }
     }
+    case actionTypes.ERROR_OCCURED: {
+      return {
+        ...state,
+        error: action.payload.error,
+        isError: action.payload.isError
+      }
+    }
   }
   return state
 }
