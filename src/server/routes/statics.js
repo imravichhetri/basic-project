@@ -1,6 +1,7 @@
 import { Router as router } from 'express'
 
 import {
+  mwJsGzOptimization,
   msGzipHeaders,
   mwStaticsClient,
   mwStatics
@@ -8,6 +9,7 @@ import {
 
 const Router = router()
 
+Router.use(mwJsGzOptimization)
 Router.use(msGzipHeaders)
 Router.use(mwStatics)
 if (mwStaticsClient) {

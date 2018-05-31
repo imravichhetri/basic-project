@@ -1,6 +1,9 @@
 const Path = require('path')
 const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const CompressionPlugin = require('compression-webpack-plugin')
+
 const isDev =
   process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'stage'
 console.log(process.env.NODE_ENV, 'process.env')
@@ -15,7 +18,19 @@ module.exports = {
     chunkFilename: '[hash].[id].js',
     publicPath: '/statics/'
   },
-
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({parallel: true,
+        sourceMap: true,
+        extractComments: true,
+        uglifyOptions: {
+          compress: true,
+          mangle: {
+            keep_fnames: true
+          }
+        }})
+    ]
+  },
   module: {
     // configuration regarding modules
 
@@ -52,6 +67,7 @@ module.exports = {
       {
         test: /\.(css|scss|sass)$/,
         use: [
+          'style-loader',
           MiniCssExtractPlugin.loader,
           /* {
             loader: 'style-loader',
@@ -63,6 +79,7 @@ module.exports = {
             loader: 'css-loader',
             options: {
               sourceMap: true,
+              minimize: true,
               outputPath: '/statics/css/',
               publicPath: '/statics/css/'
             }
@@ -114,6 +131,7 @@ module.exports = {
 
   devServer: {
     contentBase: Path.join(__dirname, 'build/client'),
+    // hot: true,
     /* proxy: {
       '/statics': {
         target: 'http://localhost:4000',
@@ -146,6 +164,9 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.RUN_ENV': JSON.stringify(process.env.RUN_ENV),
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+    }),
+    new CompressionPlugin({
+      test: /\.js/
     })
   ]
 }

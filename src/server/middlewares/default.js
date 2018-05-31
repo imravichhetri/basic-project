@@ -4,10 +4,15 @@ import ReactDOM from 'react-dom/server'
 import Html from '../../universal/Html'
 import SplashScreen from '../../universal/SplashScreen'
 
-const _jsFileUrl = '/statics/bundle.js'
+let _jsFileUrl = ''// '/statics/bundle.js'
 export const defaultResponse = (req, res) => {
+  // if (req.headers['accept-encoding'].search('gzip') !== -1) {
+  //   _jsFileUrl = '/statics/bundle.js.gz'
+  // } else {
+  //   _jsFileUrl = '/statics/bundle.js'
+  // }
   const html = (
-    <Html jsFileUrl={_jsFileUrl}>
+    <Html>
       <SplashScreen />
     </Html>
   )
