@@ -2,8 +2,6 @@ import Express from 'express'
 import Proxy from 'http-proxy-middleware'
 import Path from 'path'
 
-console.log(Path.join(process.cwd(), '/build/client'))
-
 let mwStaticsClient
 
 if (process.env.NODE_ENV === 'development') {
