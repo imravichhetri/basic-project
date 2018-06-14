@@ -4,10 +4,9 @@ import ReactDOM from 'react-dom/server'
 import Html from '../../universal/Html'
 import SplashScreen from '../../universal/SplashScreen'
 
-const _jsFileUrl = '/statics/bundle.js'
 export const defaultResponse = (req, res) => {
   const html = (
-    <Html jsFileUrl={_jsFileUrl}>
+    <Html jsFileUrl={res.originalUrl}>
       <SplashScreen />
     </Html>
   )

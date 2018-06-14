@@ -1,6 +1,7 @@
-const Path = require('path')
+;const Path = require('path')
 const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const CompressionPlugin = require('compression-webpack-plugin')
 const isDev =
   process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'stage'
 console.log(process.env.NODE_ENV, 'process.env')
@@ -93,6 +94,10 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.RUN_ENV': JSON.stringify(process.env.RUN_ENV),
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+    }),
+    new CompressionPlugin({
+      algorithm: 'gzip',
+      test: /\.(js|html)$/
     })
   ]
 }

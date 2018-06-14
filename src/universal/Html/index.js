@@ -43,7 +43,7 @@ export default class Html extends React.Component {
             dangerouslySetInnerHTML={{ __html: `window.__APOLLO_STATE__=${JSON.stringify(this.props.state)};` }}
             charSet='UTF-8'
           />
-          <script src={this.props.jsFileUrl} charSet='UTF-8' />
+          <script src='/statics/bundle.js' charSet='UTF-8' />
         </body>
       </html>
     )
