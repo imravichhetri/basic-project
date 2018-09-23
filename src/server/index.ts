@@ -1,8 +1,9 @@
-import Express from 'express'
+import * as Express from 'express'
 
 import init from './init'
 
-const app = new Express()
+console.log( init,'init===============================' )
+const app = Express()
 const PORT = 4000
 
 init(app).then((data) => {

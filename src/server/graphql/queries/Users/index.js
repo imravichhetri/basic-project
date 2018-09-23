@@ -1,5 +1,5 @@
 import {Resolver} from 'graphql-compose'
-import { GraphQLSchema, GraphQLObjectType, GraphQLNonNull, GraphQLInt } from 'graphql'
+import { GraphQLInt } from 'graphql'
 
 export const Users = new Resolver({
   name: 'Users',

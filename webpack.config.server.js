@@ -18,8 +18,9 @@ module.exports = {
   entry: './src/server/index.js',
   target: 'node',
   output: {
-    path: path.join(__dirname, 'build/server'),
-    filename: 'bundle.js'
+    path: Path.join( process.cwd(), 'dist' ),
+    filename: 'server.js',
+    publicPath: '/'
   },
   module: {
     rules: [
@@ -32,6 +33,11 @@ module.exports = {
             loader: 'babel-loader'
           }
         ]
+      },
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/
       },
       {
         test: /\.js$/, // include .js files

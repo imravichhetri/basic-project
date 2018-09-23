@@ -1,7 +1,6 @@
 import { GQC } from 'graphql-compose'
 import { forEach as _forEach } from 'lodash'
 import Queries from './*/index.js'
-console.log(Queries, 'Queries')
 const initializeQueries = () => {
   try {
     const resolvers = {}
@@ -11,7 +10,6 @@ const initializeQueries = () => {
         resolvers[schemaResolver.name] = schemaResolver
       })
     })
-    console.log(resolvers, 'resolver')
     GQC.rootQuery().addFields(resolvers)
   } catch (e) {
     console.log(e, 'error')

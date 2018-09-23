@@ -1,0 +1,216 @@
+{
+  "undefined": [
+    {
+      "id": 0,
+      "name": null,
+      "file": "js/index.js",
+      "publicPath": "/statics/js/index.js"
+    },
+    {
+      "id": "./node_modules/webpack/hot sync ^\\.\\/log$",
+      "name": "./node_modules/webpack/hot sync ^\\.\\/log$",
+      "file": "js/index.js",
+      "publicPath": "/statics/js/index.js"
+    }
+  ],
+  "/home/ravindra/projects/node-projects/personal-projects/base-project/src/client/index.js": [
+    {
+      "id": "./src/client/index.js",
+      "name": "./src/client/index.js",
+      "file": "js/index.js",
+      "publicPath": "/statics/js/index.js"
+    }
+  ],
+  "ansi-html": [
+    {
+      "id": "./node_modules/ansi-html/index.js",
+      "name": "./node_modules/ansi-html/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "ansi-regex": [
+    {
+      "id": "./node_modules/ansi-regex/index.js",
+      "name": "./node_modules/ansi-regex/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "events": [
+    {
+      "id": "./node_modules/events/events.js",
+      "name": "./node_modules/events/events.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "html-entities": [
+    {
+      "id": "./node_modules/html-entities/index.js",
+      "name": "./node_modules/html-entities/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./lib/html4-entities.js": [
+    {
+      "id": "./node_modules/html-entities/lib/html4-entities.js",
+      "name": "./node_modules/html-entities/lib/html4-entities.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./lib/html5-entities.js": [
+    {
+      "id": "./node_modules/html-entities/lib/html5-entities.js",
+      "name": "./node_modules/html-entities/lib/html5-entities.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./lib/xml-entities.js": [
+    {
+      "id": "./node_modules/html-entities/lib/xml-entities.js",
+      "name": "./node_modules/html-entities/lib/xml-entities.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "loglevel": [
+    {
+      "id": "./node_modules/loglevel/lib/loglevel.js",
+      "name": "./node_modules/loglevel/lib/loglevel.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "punycode": [
+    {
+      "id": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
+      "name": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./decode": [
+    {
+      "id": "./node_modules/querystring-es3/decode.js",
+      "name": "./node_modules/querystring-es3/decode.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./encode": [
+    {
+      "id": "./node_modules/querystring-es3/encode.js",
+      "name": "./node_modules/querystring-es3/encode.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "querystring": [
+    {
+      "id": "./node_modules/querystring-es3/index.js",
+      "name": "./node_modules/querystring-es3/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "sockjs-client/dist/sockjs": [
+    {
+      "id": "./node_modules/sockjs-client/dist/sockjs.js",
+      "name": "./node_modules/sockjs-client/dist/sockjs.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "strip-ansi": [
+    {
+      "id": "./node_modules/strip-ansi/index.js",
+      "name": "./node_modules/strip-ansi/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "url": [
+    {
+      "id": "./node_modules/url/url.js",
+      "name": "./node_modules/url/url.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./util": [
+    {
+      "id": "./node_modules/url/util.js",
+      "name": "./node_modules/url/util.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "/home/ravindra/projects/node-projects/personal-projects/base-project/node_modules/webpack-dev-server/client/index.js?http://localhost:4001": [
+    {
+      "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:4001",
+      "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:4001",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./overlay": [
+    {
+      "id": "./node_modules/webpack-dev-server/client/overlay.js",
+      "name": "./node_modules/webpack-dev-server/client/overlay.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./socket": [
+    {
+      "id": "./node_modules/webpack-dev-server/client/socket.js",
+      "name": "./node_modules/webpack-dev-server/client/socket.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "!!webpack amd options": [
+    {
+      "id": "./node_modules/webpack/buildin/amd-options.js",
+      "name": "./node_modules/webpack/buildin/amd-options.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./../../../webpack/buildin/global.js": [
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./../../../webpack/buildin/module.js": [
+    {
+      "id": "./node_modules/webpack/buildin/module.js",
+      "name": "./node_modules/webpack/buildin/module.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "webpack/hot/emitter": [
+    {
+      "id": "./node_modules/webpack/hot/emitter.js",
+      "name": "./node_modules/webpack/hot/emitter.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./log": [
+    {
+      "id": "./node_modules/webpack/hot/log.js",
+      "name": "./node_modules/webpack/hot/log.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ]
+}

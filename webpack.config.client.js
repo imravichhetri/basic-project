@@ -1,4 +1,4 @@
-;const Path = require('path')
+const Path = require('path')
 const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CompressionPlugin = require('compression-webpack-plugin')
@@ -10,8 +10,11 @@ module.exports = {
   mode: process.env.NODE_ENV,
   entry: './src/client/index.js',
   output: {
-    path: Path.join(__dirname, 'build/client'),
-    filename: 'bundle.js'
+    pathinfo: true,
+    path: Path.join( process.cwd(), 'dist/statics/' ),
+    filename: 'js/index.js',
+    chunkFilename: 'js/[name].js',
+    publicPath: '/statics/'
   },
 
   module: {

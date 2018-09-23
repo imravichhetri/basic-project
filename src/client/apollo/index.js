@@ -1,4 +1,5 @@
-import ApolloClient from 'apollo-boost'
+import { ApolloClient } from 'apollo-client';
+// import ApolloClient from 'apollo-boost'
 
 const apolloClient = new ApolloClient()
 

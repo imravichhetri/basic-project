@@ -1,7 +1,7 @@
-import React from 'react'
+/*import React from 'react'
 import { render } from 'react-dom'
 import { ApolloProvider, Query } from 'react-apollo'
-import gql from 'graphql-tag'
+// import gql from 'graphql-tag'
 
 import client from './apollo'
 // const Tag = () => (<div>Done</div>)
@@ -25,7 +25,7 @@ class App extends React.Component {
         if (loading) return <p>Loading...</p>
         if (error) return <p>Error :(</p>
         	console.log(data, 'data')
-        return <h1>{data.Github.username}</h1>
+        return <h1>{datApolloProvidera.Github.username}</h1>
       }}
     </Query>
   }
@@ -38,3 +38,4 @@ render(
   </ApolloProvider>,
   document.getElementById('content')
 )
+*/
