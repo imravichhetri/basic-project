@@ -9,11 +9,11 @@ import {
 
 const Router = router()
 
-Router.use(mwJsGzOptimization)
-Router.use(msGzipHeaders)
-Router.use(mwStatics)
-if (mwStaticsClient) {
-  Router.use(mwStaticsClient)
+Router.use( mwJsGzOptimization.bind( mwJsGzOptimization ) )
+Router.use( msGzipHeaders.bind( msGzipHeaders ) )
+Router.use( mwStatics.bind( mwStatics ) )
+if ( mwStaticsClient ) {
+  Router.use( mwStaticsClient.bind( mwStaticsClient ) )
 }
 
 export const url = '/statics'

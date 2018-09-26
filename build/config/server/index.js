@@ -26,5 +26,4 @@ switch ( process.env.NODE_ENV ){
   }
 }
 
-console.log(modExport, process.env.NODE_ENV,'modExport')
 module.exports = Merge( commonConfig, modExport );

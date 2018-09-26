@@ -14,9 +14,11 @@
       "target": "es5",
       "jsx": "react",
       "allowJs": true,
+      "esModuleInterop": true ,
       "lib": [
         "es2017",
         "dom",
+        "es6",
         "esnext",
         "es2015.core",
         "es2015.collection",
@@ -28,9 +30,29 @@
         "es2015.symbol",
         "es2015.symbol.wellknown",
         "esnext.asynciterable"
+      ],
+      "types": [
+        "body-parser",
+        "express",
+        "express-serve-static-core",
+        "graphql",
+        "http-proxy-middleware",
+        "lodash",
+        "react-router",
+        "webpack-env",
+        "webpack-dev-middleware"
       ]
     },
     "include": [
         "./src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "build",
+      "scripts",
+      "acceptance-tests",
+      "webpack",
+      "jest",
+      "src/setupTests.ts"
     ]
   }

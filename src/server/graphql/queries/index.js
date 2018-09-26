@@ -6,7 +6,7 @@ const initializeQueries = () => {
     const resolvers = {}
     Queries.forEach(schemaResolvers => {
       _forEach(schemaResolvers, (schemaResolver, key) => {
-        console.log(schemaResolver, 'schemaResolver')
+        // console.log(schemaResolver, 'schemaResolver')
         resolvers[schemaResolver.name] = schemaResolver
       })
     })

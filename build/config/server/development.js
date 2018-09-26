@@ -1,5 +1,12 @@
+const { LoaderOptionsPlugin } = require( 'webpack' );
 module.exports = {
-	mode: 'development',
+  mode: 'development',
   bail: true,
-  devtool: 'cheap-module-source-map',
+  devtool: 'source-map',
+  plugins: [
+    new LoaderOptionsPlugin({
+      debug: true
+    })
+  ]
+
 }

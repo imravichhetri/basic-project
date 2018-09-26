@@ -149,10 +149,10 @@
       "publicPath": "/statics/js/vendors.js"
     }
   ],
-  "/home/ravindra/projects/node-projects/personal-projects/base-project/node_modules/webpack-dev-server/client/index.js?http://localhost:4001": [
+  "/home/ravindra/projects/node-projects/personal-projects/base-project/node_modules/webpack-dev-server/client/index.js?http://localhost:4002": [
     {
-      "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:4001",
-      "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:4001",
+      "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:4002",
+      "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:4002",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }

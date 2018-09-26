@@ -10,7 +10,3 @@ Router.use(defaultResponse)
 
 export const url = ''
 export const route = Router
-
-/*export * from './graphql';
-export * from './graphiql';
-export * from './statics';*/

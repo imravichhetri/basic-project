@@ -1,24 +1,27 @@
-import { sortBy as _sort, each as _each } from 'lodash'
+import { sortBy as _sort, each as _each } from 'lodash';
+import { Application } from 'express';
+import * as BodyParser from 'body-parser';
 import * as allRoutes from './routes';
 
-import {
+/*import {
   printAndReturn
-} from './services/test';
+} from './services/test';*/
 
-const value = printAndReturn( 1 );
-console.log( value,'======value' );
+// const value = printAndReturn( 1 );
+// console.log( value,'======value' );
 console.log(allRoutes, 'allRoutes')
-const init = async( app: any ) => {
-  /*_each(
-    _sort(allRoutes, ({ route, url }) => url).reverse(),
-    ({ route, url }) => {
-      if (url) {
-        app.use(url, route)
+const init = async( app: Application ) => {
+  app.use( BodyParser.json().bind( BodyParser ) );
+  _each(
+    _sort( allRoutes, ( { route, url } ) => url ).reverse(),
+    ( { route, url } ) => {
+      if ( url ) {
+        app.use( url, route )
       } else {
-        app.use(route)
+        app.use( route )
       }
     }
-  )*/
+  )
 }
 
 export default init;
