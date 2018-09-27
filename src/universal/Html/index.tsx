@@ -1,7 +1,30 @@
+import PropTypes from 'prop-types';
 import React from "react";
+
 const FavIcon = "abc.png";
-export default class Html extends React.Component {
-	render() {
+
+interface IProps {
+	state: object;
+	children: object;
+	jsFileUrl: string;
+}
+
+export default class Html extends React.Component<IProps> {
+	
+	public static propTypes = {
+    children: PropTypes.element.isRequired,
+    state: PropTypes.object.isRequired,
+    jsFileUrl: PropTypes.string.isRequired
+  };
+
+  public static defaultProps = {
+  	state: {}
+  };
+	
+	constructor( props: any ){
+		super( props );
+	}
+	public render() {
 		return (
 			<html
 				lang="en"
@@ -51,7 +74,7 @@ export default class Html extends React.Component {
 						}}
 						charSet="UTF-8"
 					/>
-					<script src="/statics/bundle.js" charSet="UTF-8" />
+          <script src={ this.props.jsFileUrl } charSet='UTF-8' />
 				</body>
 			</html>
 		);

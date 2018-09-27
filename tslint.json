@@ -16,9 +16,11 @@
     "no-console": false,
   	"space-in-parens": [true, "always", { "exceptions": [ "{}", "[]", "()", "empty" ] } ],
   	"semicolon": [ true, "always", "ignore-bound-class-methods" ],
+    "no-unused-variable": [true, {"ignore-pattern": "^React", "severity": "warning"} ],
   	"variable-name": [ false, "ban-keywords", "check-format", "allow-leading-underscore"],
     "import-name": [ false, {
        "Express": "express" 
-     } ]
+     } ],
+    "object-literal-sort-keys": [false, "ignore-case", "match-declaration-order", "shorthand-first"]
   }
 }

@@ -113,7 +113,7 @@ module.exports = {
             ]
           },
           {
-            test: /\.ts?$/,
+            test: /\.ts(x?)$/,
             enforce: 'pre',
             use: [
               {

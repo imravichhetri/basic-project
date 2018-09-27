@@ -32,12 +32,19 @@
         "esnext.asynciterable"
       ],
       "types": [
+        "apollo-client",
+        "apollo-server-core",
         "body-parser",
         "express",
+        "express-graphql",
         "express-serve-static-core",
+        "express-session",
         "graphql",
         "http-proxy-middleware",
         "lodash",
+        "react",
+        "react-dom",
+        "react-apollo",
         "react-router",
         "webpack-env",
         "webpack-dev-middleware"

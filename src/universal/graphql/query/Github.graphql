@@ -1,0 +1,11 @@
+query GithubQuery4($username: String!){
+  Github(username:$username){
+    name 
+    username
+    avatarUrl
+    avatarUrl
+    followers
+    following
+    repos
+  }
+}

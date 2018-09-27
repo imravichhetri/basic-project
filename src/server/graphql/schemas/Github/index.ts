@@ -1,8 +1,6 @@
 import {
-	GraphQLSchema,
-	GraphQLObjectType,
-	GraphQLNonNull,
 	GraphQLInt,
+	GraphQLObjectType,
 	GraphQLString
 } from "graphql";
 
