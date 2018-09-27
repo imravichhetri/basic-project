@@ -1,12 +1,10 @@
-import { Router as router } from 'express'
+import { Router as router } from "express";
 
-import {
-  defaultResponse
-} from '../middlewares/default'
+import { defaultResponse } from "../middlewares/default";
 
-const Router = router()
+const Router = router();
 
-Router.use(defaultResponse)
+Router.use( defaultResponse );
 
-export const url = ''
-export const route = Router
+export const url = "";
+export const route = Router;

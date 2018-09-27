@@ -54,5 +54,8 @@
       "webpack",
       "jest",
       "src/setupTests.ts"
-    ]
+    ],
+    "tslint": {
+      "args": ["--project", "${folder}"]
+    }
   }

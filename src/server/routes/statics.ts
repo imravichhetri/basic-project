@@ -1,20 +1,20 @@
-import { Router as router } from 'express'
+import { Router as router } from "express";
 
 import {
   msGzipHeaders,
-  mwStaticsClient,
+  mwJsGzOptimization,
   mwStatics,
-  mwJsGzOptimization
-} from '../middlewares/statics'
+  mwStaticsClient
+} from "../middlewares/statics";
 
-const Router = router()
+const Router = router();
 
-Router.use( mwJsGzOptimization.bind( mwJsGzOptimization ) )
-Router.use( msGzipHeaders.bind( msGzipHeaders ) )
-Router.use( mwStatics.bind( mwStatics ) )
+Router.use( mwJsGzOptimization.bind( mwJsGzOptimization ));
+Router.use( msGzipHeaders.bind( msGzipHeaders ));
+Router.use( mwStatics.bind( mwStatics ));
 if ( mwStaticsClient ) {
-  Router.use( mwStaticsClient.bind( mwStaticsClient ) )
+  Router.use( mwStaticsClient.bind( mwStaticsClient ));
 }
 
-export const url = '/statics'
-export const route = Router
+export const url = "/statics";
+export const route = Router;

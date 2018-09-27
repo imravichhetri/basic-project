@@ -1,10 +1,24 @@
 {
-  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "extends": [
+  	"tslint:recommended",
+    "tslint-config-airbnb",
+    "tslint-config-prettier"
+  ],
   "linterOptions": {
     "exclude": [
       "config/**/*.js",
       "node_modules/**/*.ts",
       "coverage/lcov-report/*.js"
     ]
+  },
+  "jsRules":{},
+  "rules": {
+    "no-console": false,
+  	"space-in-parens": [true, "always", { "exceptions": [ "{}", "[]", "()", "empty" ] } ],
+  	"semicolon": [ true, "always", "ignore-bound-class-methods" ],
+  	"variable-name": [ false, "ban-keywords", "check-format", "allow-leading-underscore"],
+    "import-name": [ false, {
+       "Express": "express" 
+     } ]
   }
 }

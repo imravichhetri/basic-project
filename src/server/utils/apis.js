@@ -1,9 +1,9 @@
-import axios from 'axios'
+import axios from "axios";
 
-import { usersGithub } from '../config/urls'
+import { usersGithub } from "../config/urls";
 
 module.exports = {
-  getUserDetails: function (username) {
-    return axios.get(`${usersGithub}/${username}`)
-  }
-}
+	getUserDetails: function(username) {
+		return axios.get(`${usersGithub}/${username}`);
+	}
+};

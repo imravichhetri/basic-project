@@ -3,7 +3,7 @@ const Webpack = require( 'webpack' );
 const NodeExternals = require( 'webpack-node-externals' );
 const EslintFormatter = require( 'react-dev-utils/eslintFormatter' );
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
-
+const PrettierPlugin = require("prettier-webpack-plugin");
 module.exports = {
   target: 'node',
   entry: Path.join( process.cwd(), '/src/server/index.ts' ),
@@ -83,7 +83,7 @@ module.exports = {
           {
             test: /\.(js|jsx)/,
             include: Path.join( process.cwd(), 'src' ),
-            //exclude: [/[/\\\\]node_modules[/\\\\]/],
+            exclude: [/[/\\\\]node_modules[/\\\\]/],
             use: [
               {
                 loader: require.resolve( 'thread-loader' )
@@ -114,9 +114,19 @@ module.exports = {
           },
           {
             test: /\.ts?$/,
+            enforce: 'pre',
             use: [
               {
                 loader: 'ts-loader'
+              },
+              {
+                 loader: require.resolve( 'tslint-loader' ),
+                 options: {
+                  tsConfigFile: 'tsconfig.json',
+                  failOnHint: false,
+                  typeCheck:true,
+                  fix: true
+                 }
               },
               {
                 loader: 'import-glob'
@@ -139,13 +149,28 @@ module.exports = {
       }
     ]
   },
-  plugins: [
+  plugins: [  
+    /*new PrettierPlugin( {
+      tabWidth: 2,                  // Specify the number of spaces per indentation-level.
+      useTabs: true,               // Indent lines with tabs instead of spaces.
+      semi: true,                   // Print semicolons at the ends of statements.
+      encoding: 'utf-8',            // Which encoding scheme to use on files
+      extensions: [ ".js", ".ts", ".jsx", ".tsx" ]  // Which file extensions to process
+    } ),*/
     new Webpack.DefinePlugin(
       {
         'process.env.RUN_ENV': JSON.stringify( process.env.RUN_ENV ),
         'process.env.NODE_ENV': JSON.stringify( process.env.NODE_ENV )
       }
     ),
-    new ForkTsCheckerWebpackPlugin()
+    new Webpack.LoaderOptionsPlugin( {
+      options: {
+        context: __dirname,
+        tslint: {
+          failOnHint: true
+        }
+      }
+    } )
+    // new ForkTsCheckerWebpackPlugin()
   ]
 };

@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=development concurrently -c blue,cyan,magenta \"webpack --watch --config ./build/config/server\" \"RUN_ENV=client webpack-dev-server --mode=development -d --inline --no-info --port 4002 --config ./build/config/client\"  \" sleep 3 &&  nodemon --inspect --watch dist dist/server.js\"",
+    "dev-server": "NODE_ENV=development concurrently -c blue,cyan,magenta \"webpack --watch --config ./build/config/server\" \" sleep 3 &&  nodemon --inspect=9230 --watch dist dist/server.js\"",
     "client-build": "NODE_ENV=production webpack --mode=production --config ./build/config/server",
-    "react-start": "webpack-dev-server --mode=development -d --inline --no-info --port 4001 --config ./build/config/client"
+    "react-start": "webpack-dev-server --mode=development -d --inline --no-info --port 4001 --config ./build/config/client",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json"
   },
   "author": "Ravi Chhetri",
   "license": "ISC",
@@ -37,7 +39,9 @@
     "react": "^16.3.2",
     "react-apollo": "^2.1.11",
     "react-dom": "^16.3.2",
-    "react-router-dom": "^4.2.2"
+    "react-router-dom": "^4.2.2",
+    "remove": "^0.1.5",
+    "typescript": "^3.0.3"
   },
   "devDependencies": {
     "@resuelve/react-dev-utils": "^5.0.5",
@@ -53,6 +57,7 @@
     "babel-plugin-transform-decorators-legacy": "^1.3.5",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
+    "babel-preset-airbnb": "^2.6.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-react-app": "^3.1.2",
@@ -78,6 +83,9 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-loader": "^3.0.0",
+    "prettier": "^1.14.3",
+    "prettier-loader": "^2.1.1",
+    "prettier-webpack-plugin": "^1.1.0",
     "react-dev-utils": "^5.0.2",
     "react-loadable": "^5.5.0",
     "sass-loader": "^7.1.0",
@@ -85,7 +93,10 @@
     "sw-precache-webpack-plugin": "^0.11.5",
     "thread-loader": "^1.2.0",
     "ts-loader": "^5.1.1",
-    "typescript": "^3.0.3",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-loader": "^3.6.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.19.1",
     "webpack-cli": "^2.0.15",

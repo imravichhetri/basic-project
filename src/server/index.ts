@@ -1,15 +1,16 @@
-import Express from 'express';
-import init from './init'
+import Express from "express";
+import init from "./init";
 
-console.log( init,'init===============================' )
+// console.log( init,'init===============================' )
 const app = Express();
-const PORT = 4000
+const PORT = 4000;
 
-init( app ).then( (data) => {
-  app.listen(PORT, () => {
-    console.log(`App running in ${PORT}`)
+init( app )
+  .then( data => {
+    app.listen( PORT, () => {
+      console.log( `App running in ${PORT}` );
+    });
   })
-})
-  .catch(e => {
-    console.log('Error occurred')
-  })
+  .catch( e => {
+    console.log( "Error occurred" );
+  });
