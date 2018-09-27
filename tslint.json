@@ -21,6 +21,7 @@
     "import-name": [ false, {
        "Express": "express" 
      } ],
-    "object-literal-sort-keys": [false, "ignore-case", "match-declaration-order", "shorthand-first"]
+    "object-literal-sort-keys": [false, "ignore-case", "match-declaration-order", "shorthand-first"],
+    "jsx-a11y/href-no-hash": false
   }
 }
