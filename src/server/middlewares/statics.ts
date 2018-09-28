@@ -5,12 +5,12 @@ import Path from "path";
 let mwStaticsClient: Proxy.Proxy;
 
 if ( process.env.NODE_ENV === "development" ) {
-  mwStaticsClient = Proxy({
+  mwStaticsClient = Proxy( {
     target: "http://localhost:4001",
     pathRewrite: { "^/statics": "" }
-  });
+  } );
 }
-const mwStatics = Express.static( Path.join( process.cwd(), "/build/client" ));
+const mwStatics = Express.static( Path.join( process.cwd(), "/build/client" ) );
 
 const mwJsGzOptimization = (
   req: Express.Request,
@@ -32,7 +32,7 @@ const msGzipHeaders = (
   res: Express.Response,
   next: Express.NextFunction
 ) => {
-  if ( /.gz$/.test( req.originalUrl )) {
+  if ( /.gz$/.test( req.originalUrl ) ) {
     res.set( "Content-Encoding", "gzip" );
     res.set( "Content-Type", "text/event-stream" );
   }

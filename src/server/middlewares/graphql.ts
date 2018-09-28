@@ -1,7 +1,7 @@
 import { graphiqlExpress, graphqlExpress } from "apollo-server-express";
 import schema from "../graphql";
-export const giqlExpress = graphiqlExpress({ endpointURL: "/graphql" });
-export const gqlExpress = graphqlExpress(( req: any , res: any ) => {
+export const giqlExpress = graphiqlExpress( { endpointURL: "/graphql" } );
+export const gqlExpress = graphqlExpress( ( req: any , res: any ) => {
 	return {
 		schema,
 		context: {
@@ -13,4 +13,4 @@ export const gqlExpress = graphqlExpress(( req: any , res: any ) => {
 			session: req.session
 		}
 	};
-});
+} );

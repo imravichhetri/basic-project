@@ -4,7 +4,7 @@ import {
 	GraphQLString
 } from "graphql";
 
-export const GithubOutputSchema = new GraphQLObjectType({
+export const GithubOutputSchema = new GraphQLObjectType( {
 	name: "GithubOutputSchema",
 	fields: {
 		name: {
@@ -26,4 +26,4 @@ export const GithubOutputSchema = new GraphQLObjectType({
 			type: GraphQLInt
 		}
 	}
-});
+} );

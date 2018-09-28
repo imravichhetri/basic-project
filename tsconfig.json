@@ -41,10 +41,12 @@
         "express-session",
         "graphql",
         "http-proxy-middleware",
+        "jsonwebtoken",
         "lodash",
         "react",
         "react-dom",
         "react-apollo",
+        "react-loadable",
         "react-router",
         "webpack-env",
         "webpack-dev-middleware"

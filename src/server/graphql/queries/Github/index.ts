@@ -8,14 +8,14 @@ import { GithubOutputSchema } from "../../schemas/Github";
 	source: object;
 	args: object;
 }*/
-export const Users = new Resolver({
+export const Users = new Resolver( {
 	name: "Github",
 	type: GithubOutputSchema,
 	args: {
 		username: new GraphQLNonNull( GraphQLString )
 	},
-	resolve: async ({ source, args = { username: null } }) => {
+	resolve: async ( { source, args = { username: null } } ) => {
 		const data = args.username ? await getGithubUserDetails( args.username ) : null;
 		return data;
 	}
-});
+} );

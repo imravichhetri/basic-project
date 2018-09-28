@@ -10,8 +10,8 @@ const initializeMutations = () => {
 		_forEach( Mutations, schemaResolvers => {
 			_forEach( schemaResolvers, ( schemaResolver, key ) => {
 				resolvers[schemaResolver.name] = schemaResolver;
-			});
-		});
+			} );
+		} );
 		GQC.rootMutation().addFields( resolvers );
 	} catch ( e ) {
 		console.log( e, "error" );

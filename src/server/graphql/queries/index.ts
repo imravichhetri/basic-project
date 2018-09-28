@@ -10,8 +10,8 @@ const initializeQueries = () => {
 			_forEach( schemaResolvers, ( schemaResolver: any, key ) => {
 				// console.log(schemaResolver, 'schemaResolver')
 				resolvers[schemaResolver.name] = schemaResolver;
-			});
-		});
+			} );
+		} );
 		GQC.rootQuery().addFields( resolvers );
 	} catch ( e ) {
 		console.log( e, "error" );

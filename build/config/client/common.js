@@ -20,6 +20,9 @@ module.exports = {
     chunkFilename: 'js/[name].js',
     publicPath: '/statics/'
   },
+  resolve: {
+    extensions: [ '.tsx', '.ts', '.js' ]
+  },
   module: {
     strictExportPresence: true,
     rules: [
@@ -124,8 +127,25 @@ module.exports = {
             ]
           },
           {
-            test: /\.tsx?$/,
-            use: 'ts-loader',
+            test: /\.ts(x?)$/,
+            enforce: 'pre',
+            use: [
+              {
+                loader: 'ts-loader'
+              },
+              {
+                 loader: require.resolve( 'tslint-loader' ),
+                 options: {
+                  tsConfigFile: 'tsconfig.json',
+                  failOnHint: false,
+                  typeCheck:true,
+                  fix: true
+                 }
+              },
+              {
+                loader: 'import-glob'
+              }
+            ],
             exclude: /node_modules/
           },
           {
@@ -359,7 +379,15 @@ module.exports = {
       }
     ),
     new Webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
-    new ForkTsCheckerWebpackPlugin()
+    new ForkTsCheckerWebpackPlugin(),
+    new Webpack.LoaderOptionsPlugin( {
+      options: {
+        context: __dirname,
+        tslint: {
+          failOnHint: true
+        }
+      }
+    } )
   ],
   node: {
     dgram: 'empty',

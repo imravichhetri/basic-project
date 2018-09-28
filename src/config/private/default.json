@@ -1,0 +1,8 @@
+{
+  "webapp_port": 8080,
+  "google": {
+    "client_id": "404275562161-dkd4dqrhautecsru907849aftkrfaspr.apps.googleusercontent.com",
+    "client_secret": "pJnLUn0KZcsyVF4wRmCGUOio",
+    "redirect_url": "http://localhost:8080/google/auth-redirect"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "jwt_secret": "1b32165e-6696-41e8-81b2-6eff1f4f30af",
+  "publisher_be_host": "http://dhng-publish-dev-n1.dailyhunt.in/publish/dashboard/api/v1",
+  "google": {
+    "client_id": "404275562161-dkd4dqrhautecsru907849aftkrfaspr.apps.googleusercontent.com",
+    "client_secret": "pJnLUn0KZcsyVF4wRmCGUOio",
+    "redirect_url": "http://dhng-publish-dev-n1.dailyhunt.in/google/auth-redirect"
+  }
+}

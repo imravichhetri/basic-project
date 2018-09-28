@@ -1,0 +1,9 @@
+{
+  "jwt_secret": "f359b338-8733-4ad4-8d31-5ae0488cfe41",
+  "publisher_be_host": "http://dhpub-publish-qa.dailyhunt.in/publish/dashboard/api/v1/",
+  "google": {
+    "client_id": "404275562161-dkd4dqrhautecsru907849aftkrfaspr.apps.googleusercontent.com",
+    "client_secret": "pJnLUn0KZcsyVF4wRmCGUOio",
+    "redirect_url": "http://dhpub-publish-qa.dailyhunt.in/google/auth-redirect"
+  }
+}
