@@ -44,6 +44,23 @@ module.exports = {
         exclude: [/[/\\\\]node_modules[/\\\\]/]
       },
       {
+        test: /\.(ts|tsx)$/,
+        enforce: 'pre',
+        use: [
+          {
+            loader: require.resolve( 'tslint-loader' ),
+            options: {
+              tsConfigFile: 'tsconfig.json',
+              failOnHint: false,
+              typeCheck:true,
+              fix: true
+            }
+          },
+        ],
+        include: Path.join( process.cwd(), 'src' ),
+        exclude: [/[/\\\\]node_modules[/\\\\]/]
+      },
+      {
         oneOf: [
           {
             type: 'javascript/auto',
@@ -118,16 +135,7 @@ module.exports = {
             use: [
               {
                 loader: 'babel-loader'
-              },/*
-              {
-                 loader: require.resolve( 'tslint-loader' ),
-                 options: {
-                  tsConfigFile: 'tsconfig.json',
-                  failOnHint: false,
-                  typeCheck:true,
-                  fix: true
-                 }
-              },*/
+              },
               {
                 loader: 'import-glob'
               }

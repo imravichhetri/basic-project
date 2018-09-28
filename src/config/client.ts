@@ -14,7 +14,7 @@ if ( process.env.RUN_ENV === 'client' ){
 
   const PlatformPublicConfig = JSON.parse( Fs.readFileSync( Path.join( process.cwd(), 'dist', PlatformPublicConfigLocation ) ) );
 
-  Config = Object.assign( {}, DefaultPublicConfig, PlatformPublicConfig );
+  Config = {...DefaultPublicConfig, ...PlatformPublicConfig };
 }
 
 export default Config;

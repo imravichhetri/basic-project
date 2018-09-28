@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=development concurrently -c blue,cyan,magenta \" RUN_ENV=server webpack --watch --config ./build/config/server\" \"RUN_ENV=client webpack-dev-server --mode=development -d --inline --no-info --port 4002 --config ./build/config/client\"  \" sleep 3 &&  nodemon --inspect --watch dist dist/server.js\"\" sleep 6 && npm run watch:gen-types\"",
-    "dev-server": "NODE_ENV=development concurrently -c blue,cyan,magenta \"RUN_ENV=server webpack --watch --config ./build/config/server\" \" sleep 3 &&  nodemon --inspect=9230 --watch dist dist/server.js\"\" sleep 6 && npm run watch:gen-types\"",
+    "dev-server": "NODE_ENV=development concurrently -c blue,cyan,magenta \"RUN_ENV=server webpack --watch --config ./build/config/server\" \" sleep 3 &&  nodemon --inspect=9230 --watch dist dist/server.js\"\" sleep 6 && echo 'type generator running'; npm run watch:gen-types\"",
     "client-build": "NODE_ENV=production webpack --mode=production --config ./build/config/server",
     "react-start": "webpack-dev-server --mode=development -d --inline --no-info --port 4001 --config ./build/config/client",
     "tslint-check": "tslint-config-prettier-check ./tslint.json",
@@ -111,6 +111,7 @@
     "tslint-config-airbnb": "^5.11.0",
     "tslint-config-prettier": "^1.15.0",
     "tslint-loader": "^3.6.0",
+    "tslint-react": "^3.6.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.19.1",
     "webpack-cli": "^2.0.15",
