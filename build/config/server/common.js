@@ -117,8 +117,8 @@ module.exports = {
             enforce: 'pre',
             use: [
               {
-                loader: 'ts-loader'
-              },
+                loader: 'babel-loader'
+              },/*
               {
                  loader: require.resolve( 'tslint-loader' ),
                  options: {
@@ -127,7 +127,7 @@ module.exports = {
                   typeCheck:true,
                   fix: true
                  }
-              },
+              },*/
               {
                 loader: 'import-glob'
               }

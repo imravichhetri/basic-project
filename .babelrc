@@ -1,6 +1,16 @@
 {
-  "presets": ["env","react"],
-  "plugins":[
-  	 "transform-runtime"
+  "presets": [
+    ["@babel/preset-env", {
+      "useBuiltIns": false,
+    }],
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+ 		["@babel/plugin-proposal-decorators", { "legacy": true }],
+  	"@babel/plugin-proposal-class-properties",
+  	"@babel/plugin-proposal-export-default-from",
+  	"@babel/plugin-proposal-export-namespace-from",
+    "@babel/plugin-transform-runtime"
   ]
 }
