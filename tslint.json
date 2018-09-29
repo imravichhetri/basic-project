@@ -26,6 +26,19 @@
     "jsx-a11y/href-no-hash": false,
     "no-var-requires": false,
     "no-string-literal": false,
-    "space-within-parens": [true, 1]
+    "space-within-parens": [true, 1],
+    "jsx-no-lambda": false,
+    "no-else-after-return": {
+      "options": "allow-else-if"
+    },
+    "no-implicit-dependencies": [true, "dev"],
+    "no-submodule-imports": [
+      true, 
+      "dev", 
+      "react-router-dom",
+      "react-apollo",
+      "react-dom",
+      "react-loadable"
+    ]
   }
 }

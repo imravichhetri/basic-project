@@ -13,18 +13,21 @@ import {
   ApolloProvider,
   renderToStringWithData as RenderToStringWithData
 } from 'react-apollo';
-import ReactDOM from 'react-dom/server';
-import Loadable from 'react-loadable';
+import * as ReactDOM from 'react-dom/server';
+import * as Loadable from 'react-loadable';
 import { getBundles } from 'react-loadable/webpack';
 
 import ClientConfig from '../../config/client';
+import GQLSchema from '../graphql';
+import {
+  ErrorLink
+} from '../utils/apollo-links';
 import JwtClient from '../utils/jwt_client';
-
 
 import { NextFunction, Request, Response } from "express";
 
-import Html from "../../universal/Html";
-import SplashScreen from "../../universal/SplashScreen";
+import Html from "../../common/functional/Html";
+import SplashScreen from "../../common/functional/SplashScreen";
 
 export const setCompressedJsUrl = ( req: Request, res: Response, next: NextFunction ) => {
   if (
@@ -87,7 +90,7 @@ export const MwSetSessionData = async ( req: Request, res: Response, next: NextF
 };
 
 export const MwDefault = async ( req: Request, res: Response ) => {
-  const modules = [];
+  const modules: string[] = [];
 
   const apolloClient = new ApolloClient( {
     ssrMode: true,
@@ -103,15 +106,16 @@ export const MwDefault = async ( req: Request, res: Response ) => {
     ] )
   } );
 
+  
   const appComponent = (
     <Loadable.Capture
       report={
-        ( moduleName ) => (
-          modules.push( moduleName )
-        )
+         ( moduleName ) => {
+          modules.push( moduleName );
+        }
       }
       >
-      <ApolloProvider client={ apolloClient }>
+      <ApolloProvider client={ apolloClient }>;
         <App
           location={ req.originalUrl }
           context={ {} }

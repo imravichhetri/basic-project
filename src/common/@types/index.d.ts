@@ -7,6 +7,10 @@
 // GraphQL query operation: GithubQuery4
 // ====================================================
 
+declare global {
+    interface Window { MyNamespace: any; }
+}
+
 export interface GithubQuery4_Github {
   name: string | null;
   username: string | null;

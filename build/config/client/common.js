@@ -12,7 +12,7 @@ const { ReactLoadablePlugin } = require( 'react-loadable/webpack' );
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 module.exports = {
-  entry: Path.join( process.cwd(), '/src/client/index.js' ),
+  entry: Path.join( process.cwd(), '/src/client/index.tsx' ),
   output: {
     pathinfo: true,
     path: Path.join( process.cwd(), 'dist/statics/' ),
@@ -46,6 +46,23 @@ module.exports = {
               useEslintrc: true,
             }
           }
+        ],
+        include: Path.join( process.cwd(), 'src' ),
+        exclude: [/[/\\\\]node_modules[/\\\\]/]
+      },
+      {
+        test: /\.(ts|tsx)$/,
+        enforce: 'pre',
+        use: [
+          {
+            loader: require.resolve( 'tslint-loader' ),
+            options: {
+              tsConfigFile: 'tsconfig.json',
+              failOnHint: false,
+              typeCheck:true,
+              fix: true
+            }
+          },
         ],
         include: Path.join( process.cwd(), 'src' ),
         exclude: [/[/\\\\]node_modules[/\\\\]/]
@@ -131,16 +148,7 @@ module.exports = {
             enforce: 'pre',
             use: [
               {
-                loader: 'ts-loader'
-              },
-              {
-                 loader: require.resolve( 'tslint-loader' ),
-                 options: {
-                  tsConfigFile: 'tsconfig.json',
-                  failOnHint: false,
-                  typeCheck:true,
-                  fix: true
-                 }
+                loader: 'babel-loader'
               },
               {
                 loader: 'import-glob'

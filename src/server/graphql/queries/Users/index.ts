@@ -1,7 +1,7 @@
 import { GraphQLInt } from "graphql";
 import { Resolver } from "graphql-compose";
 
-export const Users = new Resolver( {
+const Users = new Resolver( {
 	name: "Users",
 	type: GraphQLInt,
 	args: { num: GraphQLInt },
@@ -9,3 +9,5 @@ export const Users = new Resolver( {
 		return 1;
 	}
 } );
+
+export default Users;

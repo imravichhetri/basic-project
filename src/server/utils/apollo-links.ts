@@ -9,9 +9,7 @@ export const ErrorLink = OnError( ( { graphQLErrors, networkError, response } ) 
     );
   }
 
-  if ( networkError ): Error | undefined {
+  if ( networkError ) {
   	console.log( `[Network error]: ${networkError}` );
   }
-  console.log( response );
-  response.errors = null;
 } );

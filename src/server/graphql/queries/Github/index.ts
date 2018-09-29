@@ -8,7 +8,7 @@ import { GithubOutputSchema } from "../../schemas/Github";
 	source: object;
 	args: object;
 }*/
-export const Users = new Resolver( {
+const Github = new Resolver( {
 	name: "Github",
 	type: GithubOutputSchema,
 	args: {
@@ -19,3 +19,5 @@ export const Users = new Resolver( {
 		return data;
 	}
 } );
+
+export default Github;

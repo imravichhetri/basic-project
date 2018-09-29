@@ -1,6 +1,6 @@
 import { GQC } from "graphql-compose";
-import initializeMutations from "./mutations";
-import initializeQueries from "./queries";
+import { default as initializeMutations }  from "./mutations";
+import { default as initializeQueries }  from "./queries";
 
 initializeQueries();
 initializeMutations();
