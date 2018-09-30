@@ -28,7 +28,7 @@ module.exports = {
     rules: [
       { parser: { requireEnsure: false } },
       // First, run the linter.
-      {
+     /* {
         test: /\.(js|jsx)$/,
         enforce: 'pre',
         use: [
@@ -49,7 +49,7 @@ module.exports = {
         ],
         include: Path.join( process.cwd(), 'src' ),
         exclude: [/[/\\\\]node_modules[/\\\\]/]
-      },
+      },*/
       {
         test: /\.(ts|tsx)$/,
         enforce: 'pre',
@@ -88,7 +88,7 @@ module.exports = {
               }
             }
           },
-          {
+          /*{
             test: /\.(js|jsx)$/,
             include: Path.join( process.cwd(), 'src' ),
             exclude: [/[/\\\\]node_modules[/\\\\]/],
@@ -142,13 +142,30 @@ module.exports = {
                 }
               }
             ]
+          },*/
+          { 
+            enforce: "pre", 
+            test: /\.js$/, 
+            exclude: [/[/\\\\]node_modules[/\\\\]/],
+            include: Path.join( process.cwd(), 'src' ),
+            loader: "source-map-loader" 
           },
           {
             test: /\.ts(x?)$/,
+            include: Path.join( process.cwd(), 'src' ),
             enforce: 'pre',
             use: [
               {
-                loader: 'babel-loader'
+                loader: 'babel-loader',
+                options: {
+                  plugins: [
+                    require.resolve( 'react-loadable/babel' ),
+                    [
+                      require.resolve( 'babel-plugin-import' ),
+                      {  "libraryName": "antd", "libraryDirectory": "es", "style": "css" }
+                    ],
+                  ]                  
+                }
               },
               {
                 loader: 'import-glob'
@@ -340,7 +357,7 @@ module.exports = {
       new CompressionPlugin(
         {
           algorithm: 'gzip',
-          test: /\.(js|html)$/
+          test: /\.(js|css|html)$/
         }
       ),
       new OptimizeCSSAssetsPlugin( )

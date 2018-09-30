@@ -97,7 +97,7 @@ module.exports = {
               require.resolve( 'css-loader' )
             ]
           },
-          {
+          /*{
             test: /\.(js|jsx)/,
             include: Path.join( process.cwd(), 'src' ),
             exclude: [/[/\\\\]node_modules[/\\\\]/],
@@ -128,9 +128,10 @@ module.exports = {
                 loader: require.resolve( 'import-glob' ),
               }
             ]
-          },
+          },*/
           {
             test: /\.ts(x?)$/,
+            include: Path.join( process.cwd(), 'src' ),
             enforce: 'pre',
             use: [
               {

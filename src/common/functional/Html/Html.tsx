@@ -13,7 +13,7 @@ const Html = ( props ) => {
         <head>
           <meta charSet='utf-8' />
           <meta name='viewport' content='width=device-width, initial-scale=1' />
-          <title>Notification Console</title>
+          <title>DH Publisher</title>
           <link rel='shortcut icon' type='image/x-icon' href={ FavIcon } />
           <link rel='icon' type='image/x-icon' href={ FavIcon } />
           {/*<link rel='stylesheet' type='text/css' href='/statics/css/vendors.css' />

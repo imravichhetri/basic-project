@@ -5,6 +5,6 @@ const DefaultPublicConfigLocation = require( './public/default.json' );
 
 const DefaultPublicConfig = JSON.parse( Fs.readFileSync( Path.join( process.cwd(), 'dist', DefaultPublicConfigLocation ) ) );
 
-const Config = Object.assign( {}, DefaultPublicConfig );
+const Config = { ...DefaultPublicConfig };
 
 export default Config;

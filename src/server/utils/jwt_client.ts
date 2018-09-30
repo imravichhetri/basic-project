@@ -1,7 +1,8 @@
 import Jwt from 'jsonwebtoken';
 
-import Config from '../../config';
+import { default as Config } from '../../config';
 
+console.log( Config, 'config' );
 
 const JwtClient = {
   generateUserAuthToken: ( userId: number ) => {

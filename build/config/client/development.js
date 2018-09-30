@@ -7,6 +7,12 @@ module.exports = {
     new LoaderOptionsPlugin({
       debug: true
     })
-  ]
-
+  ],
+  devServer: {
+    overlay: true,
+    noInfo: true,
+    inline: true,
+    port: 3001,
+    disableHostCheck: true
+  }
 }

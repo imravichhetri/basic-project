@@ -8,7 +8,6 @@ const initializeMutations = () => {
 		_.each( Mutations, ( { default: mutation } ) => {
 		  resolvers[ mutation.name ] = mutation;
 		} );
-		console.log( resolvers, 'mutation resolvers' );
 		GQC.rootMutation().addFields( resolvers );
 	} catch ( e ) {
 		console.log( e, "error" );

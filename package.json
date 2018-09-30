@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODE_ENV=development concurrently -c blue,cyan,magenta \" RUN_ENV=server webpack --watch --config ./build/config/server\" \"RUN_ENV=client webpack-dev-server --mode=development -d --inline --no-info --port 4002 --config ./build/config/client\"  \" sleep 3 &&  nodemon --inspect --watch dist dist/server.js\"\" sleep 6 && npm run watch:gen-types\"",
+    "dev": "NODE_ENV=development concurrently -c blue,cyan,magenta \" RUN_ENV=server webpack --watch --config ./build/config/server\" \"RUN_ENV=client webpack-dev-server --mode=development -d --inline --no-info --config ./build/config/client\"  \" sleep 3 &&  nodemon --inspect=9230 --watch dist dist/server.js\"\" sleep 3 && npm run watch:gen-types\"",
     "dev-server": "NODE_ENV=development concurrently -c blue,cyan,magenta \"RUN_ENV=server webpack --watch --config ./build/config/server\" \" sleep 6 &&  nodemon --inspect=9230 --watch dist dist/server.js\"\" sleep 3 && echo 'type generator running'; npm run watch:gen-types\"",
     "client-build": "NODE_ENV=production webpack --mode=production --config ./build/config/server",
     "react-start": "NODE_ENV=development webpack-dev-server --mode=development -d --inline --no-info --port 4001 --config ./build/config/client",
@@ -107,6 +107,7 @@
     "prop-types": "^15.6.2",
     "react-dev-utils": "^5.0.2",
     "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
     "standard": "^11.0.1",
     "sw-precache-webpack-plugin": "^0.11.5",
     "thread-loader": "^1.2.0",

@@ -1,4 +1,5 @@
-let Config: any;
+import { IConfig }  from './index.d';
+let Config: IConfig;
 
 if ( process.env.RUN_ENV === 'server' ){
   Config = require( './server' ).default;

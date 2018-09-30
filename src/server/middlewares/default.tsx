@@ -6,9 +6,10 @@ import {
   ApolloLink
 } from 'apollo-link';
 import { SchemaLink } from 'apollo-link-schema';
-/*import Fs from 'fs';
-import Path from 'path';*/
-import React from 'react';
+import { NextFunction, Request, Response } from "express";
+import Fs from 'fs';
+import Path from 'path';
+import * as React from 'react';
 import {
   ApolloProvider,
   renderToStringWithData as RenderToStringWithData
@@ -24,35 +25,40 @@ import {
 } from '../utils/apollo-links';
 import JwtClient from '../utils/jwt_client';
 
-import { NextFunction, Request, Response } from "express";
 
+import LoadablesList from '../../../react-loadable.json';
+import App from '../../common/containers/app';
 import Html from "../../common/functional/Html";
-import SplashScreen from "../../common/functional/SplashScreen";
+
+const loadablesStats = JSON.parse( Fs.readFileSync( Path.join( process.cwd(), 'dist', LoadablesList ) , 'utf8' ) );
+
 
 export const setCompressedJsUrl = ( req: Request, res: Response, next: NextFunction ) => {
-  if (
-    process.env.NODE_ENV !== 'development' &&
-    req.headers[ 'accept-encoding' ] &&
-    ( /gzip/ ).test( req.headers[ 'accept-encoding' ] )
-  ){
-    res.locals._jsFileUrl = '/statics/js/index.js.gz';
-  } else {
-    res.locals._jsFileUrl = req.originalUrl;
-  }
+  res.locals._jsFileUrl = (
+      process.env.NODE_ENV !== 'development' &&
+      req.headers[ 'accept-encoding' ] &&
+      ( /gzip/ ).test( req.headers[ 'accept-encoding' ] )
+    ) ? '/statics/js/index.js.gz' : req.originalUrl;
   next();
 };
 
 
-export const defaultResponse = ( req: Request, res: Response ) => {
+/*export const defaultResponse = ( req: Request, res: Response ) => {
+  console.log( req, 'request' );
 	const html = ( <Html
-		jsFileUrl ={ res.locals._jsFileUrl }>
+		jsFileUrl ={ 'staics/js/index.css' }>
 		 <SplashScreen/>
 		</Html>
 	);
+  try {
+    console.log( html, Html, 'html====' );
+  } catch( e ) {
+    console.log( e, 'error' );
+  }
 	res.status( 200 );
-	res.send( `<!doctype html>${ReactDOM.renderToString( html )}` );
+	res.send( `<!doctype html>${ ReactDOM.renderToString( html )}` );
 	res.end();
-};
+};*/
 
 export const MwSetSessionData = async ( req: Request, res: Response, next: NextFunction ) => {
   try {

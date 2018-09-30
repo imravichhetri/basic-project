@@ -8,10 +8,9 @@ import * as Loadable from 'react-loadable';
 
 // import '../common/utils/lodash_mixins';
 
-import ApolloClient from './utils/apollo_client';
-
-
+import App from '../common/containers/app';
 import './index.css';
+import ApolloClient from './utils/apollo_client';
 
 Loadable.preloadReady().then( () => (
   Hydrate(
@@ -20,7 +19,7 @@ Loadable.preloadReady().then( () => (
         client={ ApolloClient }
         >
         <div>
-          Heyo
+          <App/>
         </div>
       </ApolloProvider.default>
     ),

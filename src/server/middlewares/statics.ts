@@ -6,11 +6,10 @@ let mwStaticsClient: Proxy.Proxy;
 
 if ( process.env.NODE_ENV === "development" ) {
   mwStaticsClient = Proxy( {
-    target: "http://localhost:4001",
-    pathRewrite: { "^/statics": "" }
+    target: "http://localhost:3001"
   } );
 }
-const mwStatics = Express.static( Path.join( process.cwd(), "/build/client" ) );
+const mwStatics = Express.static( Path.join( process.cwd(), "/dist/statics" ) );
 
 const mwJsGzOptimization = (
   req: Express.Request,
@@ -38,5 +37,6 @@ const msGzipHeaders = (
   }
   next();
 };
+
 
 export { msGzipHeaders, mwStaticsClient, mwStatics, mwJsGzOptimization };

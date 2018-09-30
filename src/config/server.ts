@@ -11,6 +11,6 @@ const DefaultPublicConfig = JSON.parse( Fs.readFileSync( Path.join( process.cwd(
 const PlatformPrivateConfig = JSON.parse( Fs.readFileSync( Path.join( process.cwd(), 'dist', PlatformPrivateConfigLocation ) ) );
 const PlatformPublicConfig = JSON.parse( Fs.readFileSync( Path.join( process.cwd(), 'dist', PlatformPublicConfigLocation ) ) );
 
-const Config = {...DefaultPublicConfig, ...PlatformPublicConfig, ...DefaultPrivateConfig, ...PlatformPrivateConfig };
+const Config = { ...DefaultPublicConfig, ...PlatformPublicConfig, ...DefaultPrivateConfig, ...PlatformPrivateConfig };
 
 export default Config;

@@ -9,7 +9,9 @@ import {
 
 const Router = router();
 
-Router.use( mwJsGzOptimization.bind( mwJsGzOptimization ) );
+if( process.env.NODE_ENV !== 'development' ) {
+	Router.use( mwJsGzOptimization.bind( mwJsGzOptimization ) );
+}
 Router.use( msGzipHeaders.bind( msGzipHeaders ) );
 Router.use( mwStatics.bind( mwStatics ) );
 if ( mwStaticsClient ) {
