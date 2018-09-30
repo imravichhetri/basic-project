@@ -9,7 +9,7 @@ const DefaultPublicConfig = JSON.parse( Fs.readFileSync( Path.join( process.cwd(
 
 const PlatformPublicConfig = JSON.parse( Fs.readFileSync( Path.join( process.cwd(), 'dist', PlatformPublicConfigLocation ) ) );
 
-const Config = process.env.RUN_ENV === 'client' ? ( window as any ).__CONFIG__ : {...DefaultPublicConfig, ...PlatformPublicConfig };
+const Config = process.env.RUN_ENV === 'client' ? ( window as any ).__CONFIG__ : { ...DefaultPublicConfig, ...PlatformPublicConfig };
 
 
 export default Config;

@@ -27,7 +27,7 @@ import {
 
 import LoadablesList from '../../../react-loadable.json';
 import App from '../../common/containers/app';
-import Html from "../../common/functional/Html";
+import Html from "../../common/presentational/Html";
 
 const loadablesStats = JSON.parse( Fs.readFileSync( Path.join( process.cwd(), 'dist', LoadablesList ) , 'utf8' ) );
 

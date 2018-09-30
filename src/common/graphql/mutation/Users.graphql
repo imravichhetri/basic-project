@@ -1,0 +1,3 @@
+mutation Users($num: Int){
+  Users(num:$num)
+}

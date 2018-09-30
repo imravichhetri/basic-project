@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "NODE_ENV=development concurrently -c blue,cyan,magenta \" RUN_ENV=server webpack --watch --config ./build/config/server\" \"RUN_ENV=client webpack-dev-server --mode=development -d --inline --no-info --config ./build/config/client\"  \" sleep 3 &&  nodemon --inspect=9230 --watch dist dist/server.js\"\" sleep 3 && npm run watch:gen-types\"",
-    "dev-server": "NODE_ENV=development concurrently -c blue,cyan,magenta \"RUN_ENV=server webpack --watch --config ./build/config/server\" \" sleep 6 &&  nodemon --inspect=9230 --watch dist dist/server.js\"\" sleep 3 && echo 'type generator running'; npm run watch:gen-types\"",
+    "dev-server": "NODE_ENV=development concurrently -c blue,cyan,magenta \"RUN_ENV=server webpack --watch --config ./build/config/server\" \" sleep 6 &&  nodemon --inspect=9230 --watch dist dist/server.js\"\" sleep 3 && echo 'type generator running'; npm run gen-schema; npm run watch-gen-types\"",
     "client-build": "NODE_ENV=production webpack --mode=production --config ./build/config/server",
     "react-start": "NODE_ENV=development webpack-dev-server --mode=development -d --inline --no-info --port 4001 --config ./build/config/client",
     "tslint-check": "tslint-config-prettier-check ./tslint.json",
     "gen-types": "concurrently -c blue,cyan,magenta \"apollo-codegen  introspect-schema http://localhost:4000/graphql --output schema.json\"  \"apollo-codegen  generate src/**/*.graphql --schema schema.json --target typescript --output src/universal/@types/index.d.ts\"",
-    "watch:gen-types": "concurrently -c blue,cyan,magenta \"apollo-codegen introspect-schema http://localhost:4000/graphql --output schema.json\"  \"codegen:generate --schema schema.json --target typescript --watch\""
+    "watch:gen-types": "concurrently -c blue,cyan,magenta \"apollo-codegen introspect-schema http://localhost:4000/graphql --output schema.json\"  \" sleep 2; apollo codegen:generate --schema schema.json --target typescript --watch\"",
+    "gen-schema":"apollo-codegen introspect-schema http://localhost:4000/graphql --output schema.json",
+    "watch-gen-types": "apollo codegen:generate --schema schema.json --target typescript --watch"
   },
   "author": "Ravi Chhetri",
   "license": "ISC",

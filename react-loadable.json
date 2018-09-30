@@ -1,4 +1,18 @@
 {
+  "../../routes": [
+    {
+      "id": "./src/common/routes/index.tsx",
+      "name": "./src/common/routes/index.tsx",
+      "file": "css/index.css",
+      "publicPath": "/statics/css/index.css"
+    },
+    {
+      "id": "./src/common/routes/index.tsx",
+      "name": "./src/common/routes/index.tsx",
+      "file": "js/index.js",
+      "publicPath": "/statics/js/index.js"
+    }
+  ],
   "undefined": [
     {
       "id": 0,
@@ -13,7 +27,7 @@
       "publicPath": "/statics/css/index.css"
     },
     {
-      "id": 1,
+      "id": 6,
       "name": null,
       "file": "css/index.css",
       "publicPath": "/statics/css/index.css"
@@ -31,24 +45,70 @@
       "publicPath": "/statics/js/index.js"
     },
     {
-      "id": 1,
+      "id": 6,
       "name": null,
       "file": "js/index.js",
       "publicPath": "/statics/js/index.js"
-    }
-  ],
-  "./index.css": [
-    {
-      "id": "./src/client/index.css",
-      "name": "./src/client/index.css",
-      "file": "css/index.css",
-      "publicPath": "/statics/css/index.css"
     },
     {
-      "id": "./src/client/index.css",
-      "name": "./src/client/index.css",
-      "file": "js/index.js",
-      "publicPath": "/statics/js/index.js"
+      "id": 3,
+      "name": null,
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": 1,
+      "name": null,
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": 2,
+      "name": null,
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": 5,
+      "name": null,
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": 1,
+      "name": null,
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": 2,
+      "name": null,
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": 5,
+      "name": null,
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
     }
   ],
   "/home/ravindra/projects/node-projects/personal-projects/base-project/src/client/index.tsx": [
@@ -61,6 +121,20 @@
     {
       "id": "./src/client/index.tsx",
       "name": "./src/client/index.tsx",
+      "file": "js/index.js",
+      "publicPath": "/statics/js/index.js"
+    }
+  ],
+  "../common/containers/app": [
+    {
+      "id": "./src/common/containers/app/index.tsx",
+      "name": "./src/common/containers/app/index.tsx",
+      "file": "css/index.css",
+      "publicPath": "/statics/css/index.css"
+    },
+    {
+      "id": "./src/common/containers/app/index.tsx",
+      "name": "./src/common/containers/app/index.tsx",
       "file": "js/index.js",
       "publicPath": "/statics/js/index.js"
     }
@@ -79,18 +153,80 @@
       "publicPath": "/statics/js/index.js"
     }
   ],
-  "../common/containers/app": [
+  "../containers/dashboard": [
     {
-      "id": "./src/common/containers/app/index.tsx",
-      "name": "./src/common/containers/app/index.tsx",
+      "id": "./src/common/containers/dashboard/index.tsx",
+      "name": "./src/common/containers/dashboard/index.tsx",
       "file": "css/index.css",
       "publicPath": "/statics/css/index.css"
     },
     {
-      "id": "./src/common/containers/app/index.tsx",
-      "name": "./src/common/containers/app/index.tsx",
+      "id": "./src/common/containers/dashboard/index.tsx",
+      "name": "./src/common/containers/dashboard/index.tsx",
       "file": "js/index.js",
       "publicPath": "/statics/js/index.js"
+    }
+  ],
+  "./index.css": [
+    {
+      "id": "./src/client/index.css",
+      "name": "./src/client/index.css",
+      "file": "css/index.css",
+      "publicPath": "/statics/css/index.css"
+    },
+    {
+      "id": "./src/client/index.css",
+      "name": "./src/client/index.css",
+      "file": "js/index.js",
+      "publicPath": "/statics/js/index.js"
+    },
+    {
+      "id": "./node_modules/antd/es/icon/style/index.css",
+      "name": "./node_modules/antd/es/icon/style/index.css",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/layout/style/index.css",
+      "name": "./node_modules/antd/es/layout/style/index.css",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/menu/style/index.css",
+      "name": "./node_modules/antd/es/menu/style/index.css",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/tooltip/style/index.css",
+      "name": "./node_modules/antd/es/tooltip/style/index.css",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/icon/style/index.css",
+      "name": "./node_modules/antd/es/icon/style/index.css",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/antd/es/layout/style/index.css",
+      "name": "./node_modules/antd/es/layout/style/index.css",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/antd/es/menu/style/index.css",
+      "name": "./node_modules/antd/es/menu/style/index.css",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/antd/es/tooltip/style/index.css",
+      "name": "./node_modules/antd/es/tooltip/style/index.css",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./utils/apollo_client": [
@@ -121,7 +257,81 @@
       "publicPath": "/statics/js/index.js"
     }
   ],
+  "./components/Icon": [
+    {
+      "id": "./node_modules/@ant-design/icons-react/es/components/Icon.js",
+      "name": "./node_modules/@ant-design/icons-react/es/components/Icon.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/@ant-design/icons-react/es/components/Icon.js",
+      "name": "./node_modules/@ant-design/icons-react/es/components/Icon.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "@ant-design/icons-react": [
+    {
+      "id": "./node_modules/@ant-design/icons-react/es/index.js",
+      "name": "./node_modules/@ant-design/icons-react/es/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/@ant-design/icons-react/es/index.js",
+      "name": "./node_modules/@ant-design/icons-react/es/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../utils": [
+    {
+      "id": "./node_modules/@ant-design/icons-react/es/utils.js",
+      "name": "./node_modules/@ant-design/icons-react/es/utils.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/utils.js",
+      "name": "./node_modules/dom-align/es/utils.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/@ant-design/icons-react/es/utils.js",
+      "name": "./node_modules/@ant-design/icons-react/es/utils.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/dom-align/es/utils.js",
+      "name": "./node_modules/dom-align/es/utils.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "@ant-design/icons/lib/dist": [
+    {
+      "id": "./node_modules/@ant-design/icons/lib/dist.js",
+      "name": "./node_modules/@ant-design/icons/lib/dist.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/@ant-design/icons/lib/dist.js",
+      "name": "./node_modules/@ant-design/icons/lib/dist.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
   "./assertThisInitialized": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+      "name": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
       "name": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
@@ -133,6 +343,12 @@
     {
       "id": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
       "name": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "name": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
@@ -141,11 +357,37 @@
     {
       "id": "./node_modules/@babel/runtime/helpers/createClass.js",
       "name": "./node_modules/@babel/runtime/helpers/createClass.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/createClass.js",
+      "name": "./node_modules/@babel/runtime/helpers/createClass.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "@babel/runtime/helpers/defineProperty": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/defineProperty.js",
+      "name": "./node_modules/@babel/runtime/helpers/defineProperty.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/defineProperty.js",
+      "name": "./node_modules/@babel/runtime/helpers/defineProperty.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "@babel/runtime/helpers/getPrototypeOf": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "name": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
       "name": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
@@ -157,11 +399,23 @@
     {
       "id": "./node_modules/@babel/runtime/helpers/inherits.js",
       "name": "./node_modules/@babel/runtime/helpers/inherits.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/inherits.js",
+      "name": "./node_modules/@babel/runtime/helpers/inherits.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "@babel/runtime/helpers/possibleConstructorReturn": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "name": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
       "name": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
@@ -173,6 +427,12 @@
     {
       "id": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
       "name": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+      "name": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
@@ -181,11 +441,77 @@
     {
       "id": "./node_modules/@babel/runtime/helpers/typeof.js",
       "name": "./node_modules/@babel/runtime/helpers/typeof.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/helpers/typeof.js",
+      "name": "./node_modules/babel-runtime/helpers/typeof.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/typeof.js",
+      "name": "./node_modules/@babel/runtime/helpers/typeof.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/babel-runtime/helpers/typeof.js",
+      "name": "./node_modules/babel-runtime/helpers/typeof.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./EventBaseObject": [
+    {
+      "id": "./node_modules/add-dom-event-listener/lib/EventBaseObject.js",
+      "name": "./node_modules/add-dom-event-listener/lib/EventBaseObject.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/add-dom-event-listener/lib/EventBaseObject.js",
+      "name": "./node_modules/add-dom-event-listener/lib/EventBaseObject.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./EventObject": [
+    {
+      "id": "./node_modules/add-dom-event-listener/lib/EventObject.js",
+      "name": "./node_modules/add-dom-event-listener/lib/EventObject.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/add-dom-event-listener/lib/EventObject.js",
+      "name": "./node_modules/add-dom-event-listener/lib/EventObject.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "add-dom-event-listener": [
+    {
+      "id": "./node_modules/add-dom-event-listener/lib/index.js",
+      "name": "./node_modules/add-dom-event-listener/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/add-dom-event-listener/lib/index.js",
+      "name": "./node_modules/add-dom-event-listener/lib/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "ansi-html": [
+    {
+      "id": "./node_modules/ansi-html/index.js",
+      "name": "./node_modules/ansi-html/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/ansi-html/index.js",
       "name": "./node_modules/ansi-html/index.js",
@@ -197,11 +523,405 @@
     {
       "id": "./node_modules/ansi-regex/index.js",
       "name": "./node_modules/ansi-regex/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/ansi-regex/index.js",
+      "name": "./node_modules/ansi-regex/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./generate": [
+    {
+      "id": "./node_modules/ant-design-palettes/lib/generate.js",
+      "name": "./node_modules/ant-design-palettes/lib/generate.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/ant-design-palettes/lib/generate.js",
+      "name": "./node_modules/ant-design-palettes/lib/generate.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "ant-design-palettes": [
+    {
+      "id": "./node_modules/ant-design-palettes/lib/index.js",
+      "name": "./node_modules/ant-design-palettes/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/ant-design-palettes/lib/index.js",
+      "name": "./node_modules/ant-design-palettes/lib/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../node_modules/antd/dist/antd.less": [
+    {
+      "id": "./node_modules/antd/dist/antd.less",
+      "name": "./node_modules/antd/dist/antd.less",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/dist/antd.less",
+      "name": "./node_modules/antd/dist/antd.less",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../_util/isNumeric": [
+    {
+      "id": "./node_modules/antd/es/_util/isNumeric.js",
+      "name": "./node_modules/antd/es/_util/isNumeric.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/_util/isNumeric.js",
+      "name": "./node_modules/antd/es/_util/isNumeric.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../_util/openAnimation": [
+    {
+      "id": "./node_modules/antd/es/_util/openAnimation.js",
+      "name": "./node_modules/antd/es/_util/openAnimation.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/_util/openAnimation.js",
+      "name": "./node_modules/antd/es/_util/openAnimation.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../_util/warning": [
+    {
+      "id": "./node_modules/antd/es/_util/warning.js",
+      "name": "./node_modules/antd/es/_util/warning.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/_util/warning.js",
+      "name": "./node_modules/antd/es/_util/warning.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./IconFont": [
+    {
+      "id": "./node_modules/antd/es/icon/IconFont.js",
+      "name": "./node_modules/antd/es/icon/IconFont.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/icon/IconFont.js",
+      "name": "./node_modules/antd/es/icon/IconFont.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "antd/es/icon": [
+    {
+      "id": "./node_modules/antd/es/icon/index.js",
+      "name": "./node_modules/antd/es/icon/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/icon/index.js",
+      "name": "./node_modules/antd/es/icon/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "antd/es/icon/style/css": [
+    {
+      "id": "./node_modules/antd/es/icon/style/css.js",
+      "name": "./node_modules/antd/es/icon/style/css.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/icon/style/css.js",
+      "name": "./node_modules/antd/es/icon/style/css.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./twoTonePrimaryColor": [
+    {
+      "id": "./node_modules/antd/es/icon/twoTonePrimaryColor.js",
+      "name": "./node_modules/antd/es/icon/twoTonePrimaryColor.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/icon/twoTonePrimaryColor.js",
+      "name": "./node_modules/antd/es/icon/twoTonePrimaryColor.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./utils": [
+    {
+      "id": "./node_modules/antd/es/icon/utils.js",
+      "name": "./node_modules/antd/es/icon/utils.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/utils.js",
+      "name": "./node_modules/apollo-cache/lib/utils.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-trigger/es/utils.js",
+      "name": "./node_modules/rc-trigger/es/utils.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/icon/utils.js",
+      "name": "./node_modules/antd/es/icon/utils.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/utils.js",
+      "name": "./node_modules/apollo-cache/lib/utils.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/rc-trigger/es/utils.js",
+      "name": "./node_modules/rc-trigger/es/utils.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./Sider": [
+    {
+      "id": "./node_modules/antd/es/layout/Sider.js",
+      "name": "./node_modules/antd/es/layout/Sider.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/layout/Sider.js",
+      "name": "./node_modules/antd/es/layout/Sider.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "antd/es/layout": [
+    {
+      "id": "./node_modules/antd/es/layout/index.js",
+      "name": "./node_modules/antd/es/layout/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/layout/index.js",
+      "name": "./node_modules/antd/es/layout/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./layout": [
+    {
+      "id": "./node_modules/antd/es/layout/layout.js",
+      "name": "./node_modules/antd/es/layout/layout.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/layout/layout.js",
+      "name": "./node_modules/antd/es/layout/layout.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "antd/es/layout/style/css": [
+    {
+      "id": "./node_modules/antd/es/layout/style/css.js",
+      "name": "./node_modules/antd/es/layout/style/css.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/layout/style/css.js",
+      "name": "./node_modules/antd/es/layout/style/css.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./MenuItem": [
+    {
+      "id": "./node_modules/antd/es/menu/MenuItem.js",
+      "name": "./node_modules/antd/es/menu/MenuItem.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/MenuItem.js",
+      "name": "./node_modules/rc-menu/es/MenuItem.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/menu/MenuItem.js",
+      "name": "./node_modules/antd/es/menu/MenuItem.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/MenuItem.js",
+      "name": "./node_modules/rc-menu/es/MenuItem.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./SubMenu": [
+    {
+      "id": "./node_modules/antd/es/menu/SubMenu.js",
+      "name": "./node_modules/antd/es/menu/SubMenu.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/SubMenu.js",
+      "name": "./node_modules/rc-menu/es/SubMenu.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/menu/SubMenu.js",
+      "name": "./node_modules/antd/es/menu/SubMenu.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/SubMenu.js",
+      "name": "./node_modules/rc-menu/es/SubMenu.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "antd/es/menu": [
+    {
+      "id": "./node_modules/antd/es/menu/index.js",
+      "name": "./node_modules/antd/es/menu/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/menu/index.js",
+      "name": "./node_modules/antd/es/menu/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "antd/es/menu/style/css": [
+    {
+      "id": "./node_modules/antd/es/menu/style/css.js",
+      "name": "./node_modules/antd/es/menu/style/css.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/menu/style/css.js",
+      "name": "./node_modules/antd/es/menu/style/css.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../style/index.css": [
+    {
+      "id": "./node_modules/antd/es/style/index.css",
+      "name": "./node_modules/antd/es/style/index.css",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/style/index.css",
+      "name": "./node_modules/antd/es/style/index.css",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../tooltip": [
+    {
+      "id": "./node_modules/antd/es/tooltip/index.js",
+      "name": "./node_modules/antd/es/tooltip/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/tooltip/index.js",
+      "name": "./node_modules/antd/es/tooltip/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./placements": [
+    {
+      "id": "./node_modules/antd/es/tooltip/placements.js",
+      "name": "./node_modules/antd/es/tooltip/placements.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/placements.js",
+      "name": "./node_modules/rc-menu/es/placements.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/tooltip/placements.js",
+      "name": "./node_modules/antd/es/tooltip/placements.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/placements.js",
+      "name": "./node_modules/rc-menu/es/placements.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../tooltip/style/css": [
+    {
+      "id": "./node_modules/antd/es/tooltip/style/css.js",
+      "name": "./node_modules/antd/es/tooltip/style/css.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/antd/es/tooltip/style/css.js",
+      "name": "./node_modules/antd/es/tooltip/style/css.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./fragmentMatcher": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
       "name": "./node_modules/apollo-cache-inmemory/lib/fragmentMatcher.js",
@@ -213,11 +933,23 @@
     {
       "id": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
       "name": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/inMemoryCache.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "apollo-cache-inmemory": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/index.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-cache-inmemory/lib/index.js",
       "name": "./node_modules/apollo-cache-inmemory/lib/index.js",
@@ -229,11 +961,23 @@
     {
       "id": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
       "name": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/objectCache.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./readFromStore": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
       "name": "./node_modules/apollo-cache-inmemory/lib/readFromStore.js",
@@ -245,11 +989,23 @@
     {
       "id": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
       "name": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/recordingCache.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./writeToStore": [
+    {
+      "id": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
+      "name": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
       "name": "./node_modules/apollo-cache-inmemory/lib/writeToStore.js",
@@ -261,11 +1017,23 @@
     {
       "id": "./node_modules/apollo-cache/lib/cache.js",
       "name": "./node_modules/apollo-cache/lib/cache.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/cache.js",
+      "name": "./node_modules/apollo-cache/lib/cache.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "apollo-cache": [
+    {
+      "id": "./node_modules/apollo-cache/lib/index.js",
+      "name": "./node_modules/apollo-cache/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-cache/lib/index.js",
       "name": "./node_modules/apollo-cache/lib/index.js",
@@ -277,6 +1045,12 @@
     {
       "id": "./node_modules/apollo-cache/lib/types/Cache.js",
       "name": "./node_modules/apollo-cache/lib/types/Cache.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-cache/lib/types/Cache.js",
+      "name": "./node_modules/apollo-cache/lib/types/Cache.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
@@ -285,19 +1059,23 @@
     {
       "id": "./node_modules/apollo-cache/lib/types/index.js",
       "name": "./node_modules/apollo-cache/lib/types/index.js",
-      "file": "js/vendors.js",
-      "publicPath": "/statics/js/vendors.js"
-    }
-  ],
-  "./utils": [
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
-      "id": "./node_modules/apollo-cache/lib/utils.js",
-      "name": "./node_modules/apollo-cache/lib/utils.js",
+      "id": "./node_modules/apollo-cache/lib/types/index.js",
+      "name": "./node_modules/apollo-cache/lib/types/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./ApolloClient": [
+    {
+      "id": "./node_modules/apollo-client/ApolloClient.js",
+      "name": "./node_modules/apollo-client/ApolloClient.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-client/ApolloClient.js",
       "name": "./node_modules/apollo-client/ApolloClient.js",
@@ -309,11 +1087,23 @@
     {
       "id": "./node_modules/apollo-client/core/ObservableQuery.js",
       "name": "./node_modules/apollo-client/core/ObservableQuery.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-client/core/ObservableQuery.js",
+      "name": "./node_modules/apollo-client/core/ObservableQuery.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./core/QueryManager": [
+    {
+      "id": "./node_modules/apollo-client/core/QueryManager.js",
+      "name": "./node_modules/apollo-client/core/QueryManager.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-client/core/QueryManager.js",
       "name": "./node_modules/apollo-client/core/QueryManager.js",
@@ -325,11 +1115,23 @@
     {
       "id": "./node_modules/apollo-client/core/networkStatus.js",
       "name": "./node_modules/apollo-client/core/networkStatus.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-client/core/networkStatus.js",
+      "name": "./node_modules/apollo-client/core/networkStatus.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./core/types": [
+    {
+      "id": "./node_modules/apollo-client/core/types.js",
+      "name": "./node_modules/apollo-client/core/types.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-client/core/types.js",
       "name": "./node_modules/apollo-client/core/types.js",
@@ -341,11 +1143,23 @@
     {
       "id": "./node_modules/apollo-client/data/mutations.js",
       "name": "./node_modules/apollo-client/data/mutations.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-client/data/mutations.js",
+      "name": "./node_modules/apollo-client/data/mutations.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "../data/queries": [
+    {
+      "id": "./node_modules/apollo-client/data/queries.js",
+      "name": "./node_modules/apollo-client/data/queries.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-client/data/queries.js",
       "name": "./node_modules/apollo-client/data/queries.js",
@@ -357,11 +1171,23 @@
     {
       "id": "./node_modules/apollo-client/data/store.js",
       "name": "./node_modules/apollo-client/data/store.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-client/data/store.js",
+      "name": "./node_modules/apollo-client/data/store.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./errors/ApolloError": [
+    {
+      "id": "./node_modules/apollo-client/errors/ApolloError.js",
+      "name": "./node_modules/apollo-client/errors/ApolloError.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-client/errors/ApolloError.js",
       "name": "./node_modules/apollo-client/errors/ApolloError.js",
@@ -373,11 +1199,23 @@
     {
       "id": "./node_modules/apollo-client/index.js",
       "name": "./node_modules/apollo-client/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-client/index.js",
+      "name": "./node_modules/apollo-client/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "../scheduler/scheduler": [
+    {
+      "id": "./node_modules/apollo-client/scheduler/scheduler.js",
+      "name": "./node_modules/apollo-client/scheduler/scheduler.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-client/scheduler/scheduler.js",
       "name": "./node_modules/apollo-client/scheduler/scheduler.js",
@@ -389,11 +1227,23 @@
     {
       "id": "./node_modules/apollo-client/util/Observable.js",
       "name": "./node_modules/apollo-client/util/Observable.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-client/util/Observable.js",
+      "name": "./node_modules/apollo-client/util/Observable.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./version": [
+    {
+      "id": "./node_modules/apollo-client/version.js",
+      "name": "./node_modules/apollo-client/version.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-client/version.js",
       "name": "./node_modules/apollo-client/version.js",
@@ -405,11 +1255,23 @@
     {
       "id": "./node_modules/apollo-link-dedup/lib/dedupLink.js",
       "name": "./node_modules/apollo-link-dedup/lib/dedupLink.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-link-dedup/lib/dedupLink.js",
+      "name": "./node_modules/apollo-link-dedup/lib/dedupLink.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "apollo-link-dedup": [
+    {
+      "id": "./node_modules/apollo-link-dedup/lib/index.js",
+      "name": "./node_modules/apollo-link-dedup/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-link-dedup/lib/index.js",
       "name": "./node_modules/apollo-link-dedup/lib/index.js",
@@ -421,11 +1283,23 @@
     {
       "id": "./node_modules/apollo-link-http-common/lib/index.js",
       "name": "./node_modules/apollo-link-http-common/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-link-http-common/lib/index.js",
+      "name": "./node_modules/apollo-link-http-common/lib/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./httpLink": [
+    {
+      "id": "./node_modules/apollo-link-http/lib/httpLink.js",
+      "name": "./node_modules/apollo-link-http/lib/httpLink.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-link-http/lib/httpLink.js",
       "name": "./node_modules/apollo-link-http/lib/httpLink.js",
@@ -437,11 +1311,23 @@
     {
       "id": "./node_modules/apollo-link-http/lib/index.js",
       "name": "./node_modules/apollo-link-http/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-link-http/lib/index.js",
+      "name": "./node_modules/apollo-link-http/lib/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "apollo-link": [
+    {
+      "id": "./node_modules/apollo-link/lib/index.js",
+      "name": "./node_modules/apollo-link/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-link/lib/index.js",
       "name": "./node_modules/apollo-link/lib/index.js",
@@ -453,11 +1339,23 @@
     {
       "id": "./node_modules/apollo-link/lib/link.js",
       "name": "./node_modules/apollo-link/lib/link.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-link/lib/link.js",
+      "name": "./node_modules/apollo-link/lib/link.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./linkUtils": [
+    {
+      "id": "./node_modules/apollo-link/lib/linkUtils.js",
+      "name": "./node_modules/apollo-link/lib/linkUtils.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-link/lib/linkUtils.js",
       "name": "./node_modules/apollo-link/lib/linkUtils.js",
@@ -469,11 +1367,23 @@
     {
       "id": "./node_modules/apollo-utilities/lib/directives.js",
       "name": "./node_modules/apollo-utilities/lib/directives.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/directives.js",
+      "name": "./node_modules/apollo-utilities/lib/directives.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./fragments": [
+    {
+      "id": "./node_modules/apollo-utilities/lib/fragments.js",
+      "name": "./node_modules/apollo-utilities/lib/fragments.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-utilities/lib/fragments.js",
       "name": "./node_modules/apollo-utilities/lib/fragments.js",
@@ -485,11 +1395,23 @@
     {
       "id": "./node_modules/apollo-utilities/lib/getFromAST.js",
       "name": "./node_modules/apollo-utilities/lib/getFromAST.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/getFromAST.js",
+      "name": "./node_modules/apollo-utilities/lib/getFromAST.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "apollo-utilities": [
+    {
+      "id": "./node_modules/apollo-utilities/lib/index.js",
+      "name": "./node_modules/apollo-utilities/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-utilities/lib/index.js",
       "name": "./node_modules/apollo-utilities/lib/index.js",
@@ -501,11 +1423,23 @@
     {
       "id": "./node_modules/apollo-utilities/lib/storeUtils.js",
       "name": "./node_modules/apollo-utilities/lib/storeUtils.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/storeUtils.js",
+      "name": "./node_modules/apollo-utilities/lib/storeUtils.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./transform": [
+    {
+      "id": "./node_modules/apollo-utilities/lib/transform.js",
+      "name": "./node_modules/apollo-utilities/lib/transform.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-utilities/lib/transform.js",
       "name": "./node_modules/apollo-utilities/lib/transform.js",
@@ -517,11 +1451,23 @@
     {
       "id": "./node_modules/apollo-utilities/lib/util/assign.js",
       "name": "./node_modules/apollo-utilities/lib/util/assign.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/assign.js",
+      "name": "./node_modules/apollo-utilities/lib/util/assign.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./util/cloneDeep": [
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/cloneDeep.js",
+      "name": "./node_modules/apollo-utilities/lib/util/cloneDeep.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-utilities/lib/util/cloneDeep.js",
       "name": "./node_modules/apollo-utilities/lib/util/cloneDeep.js",
@@ -533,11 +1479,23 @@
     {
       "id": "./node_modules/apollo-utilities/lib/util/environment.js",
       "name": "./node_modules/apollo-utilities/lib/util/environment.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/environment.js",
+      "name": "./node_modules/apollo-utilities/lib/util/environment.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./util/errorHandling": [
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/errorHandling.js",
+      "name": "./node_modules/apollo-utilities/lib/util/errorHandling.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-utilities/lib/util/errorHandling.js",
       "name": "./node_modules/apollo-utilities/lib/util/errorHandling.js",
@@ -549,11 +1507,23 @@
     {
       "id": "./node_modules/apollo-utilities/lib/util/isEqual.js",
       "name": "./node_modules/apollo-utilities/lib/util/isEqual.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/isEqual.js",
+      "name": "./node_modules/apollo-utilities/lib/util/isEqual.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./util/maybeDeepFreeze": [
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/maybeDeepFreeze.js",
+      "name": "./node_modules/apollo-utilities/lib/util/maybeDeepFreeze.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/apollo-utilities/lib/util/maybeDeepFreeze.js",
       "name": "./node_modules/apollo-utilities/lib/util/maybeDeepFreeze.js",
@@ -565,6 +1535,12 @@
     {
       "id": "./node_modules/apollo-utilities/lib/util/stripSymbols.js",
       "name": "./node_modules/apollo-utilities/lib/util/stripSymbols.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/stripSymbols.js",
+      "name": "./node_modules/apollo-utilities/lib/util/stripSymbols.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
@@ -573,11 +1549,1381 @@
     {
       "id": "./node_modules/apollo-utilities/lib/util/warnOnce.js",
       "name": "./node_modules/apollo-utilities/lib/util/warnOnce.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/apollo-utilities/lib/util/warnOnce.js",
+      "name": "./node_modules/apollo-utilities/lib/util/warnOnce.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../core-js/array/from": [
+    {
+      "id": "./node_modules/babel-runtime/core-js/array/from.js",
+      "name": "./node_modules/babel-runtime/core-js/array/from.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/core-js/array/from.js",
+      "name": "./node_modules/babel-runtime/core-js/array/from.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../core-js/object/assign": [
+    {
+      "id": "./node_modules/babel-runtime/core-js/object/assign.js",
+      "name": "./node_modules/babel-runtime/core-js/object/assign.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/core-js/object/assign.js",
+      "name": "./node_modules/babel-runtime/core-js/object/assign.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../core-js/object/create": [
+    {
+      "id": "./node_modules/babel-runtime/core-js/object/create.js",
+      "name": "./node_modules/babel-runtime/core-js/object/create.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/core-js/object/create.js",
+      "name": "./node_modules/babel-runtime/core-js/object/create.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../core-js/object/define-property": [
+    {
+      "id": "./node_modules/babel-runtime/core-js/object/define-property.js",
+      "name": "./node_modules/babel-runtime/core-js/object/define-property.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/core-js/object/define-property.js",
+      "name": "./node_modules/babel-runtime/core-js/object/define-property.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../core-js/object/set-prototype-of": [
+    {
+      "id": "./node_modules/babel-runtime/core-js/object/set-prototype-of.js",
+      "name": "./node_modules/babel-runtime/core-js/object/set-prototype-of.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/core-js/object/set-prototype-of.js",
+      "name": "./node_modules/babel-runtime/core-js/object/set-prototype-of.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../core-js/symbol": [
+    {
+      "id": "./node_modules/babel-runtime/core-js/symbol.js",
+      "name": "./node_modules/babel-runtime/core-js/symbol.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/core-js/symbol.js",
+      "name": "./node_modules/babel-runtime/core-js/symbol.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../core-js/symbol/iterator": [
+    {
+      "id": "./node_modules/babel-runtime/core-js/symbol/iterator.js",
+      "name": "./node_modules/babel-runtime/core-js/symbol/iterator.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/core-js/symbol/iterator.js",
+      "name": "./node_modules/babel-runtime/core-js/symbol/iterator.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "babel-runtime/helpers/classCallCheck": [
+    {
+      "id": "./node_modules/babel-runtime/helpers/classCallCheck.js",
+      "name": "./node_modules/babel-runtime/helpers/classCallCheck.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/helpers/classCallCheck.js",
+      "name": "./node_modules/babel-runtime/helpers/classCallCheck.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "babel-runtime/helpers/createClass": [
+    {
+      "id": "./node_modules/babel-runtime/helpers/createClass.js",
+      "name": "./node_modules/babel-runtime/helpers/createClass.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/helpers/createClass.js",
+      "name": "./node_modules/babel-runtime/helpers/createClass.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "babel-runtime/helpers/defineProperty": [
+    {
+      "id": "./node_modules/babel-runtime/helpers/defineProperty.js",
+      "name": "./node_modules/babel-runtime/helpers/defineProperty.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/helpers/defineProperty.js",
+      "name": "./node_modules/babel-runtime/helpers/defineProperty.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "babel-runtime/helpers/extends": [
+    {
+      "id": "./node_modules/babel-runtime/helpers/extends.js",
+      "name": "./node_modules/babel-runtime/helpers/extends.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/helpers/extends.js",
+      "name": "./node_modules/babel-runtime/helpers/extends.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "babel-runtime/helpers/inherits": [
+    {
+      "id": "./node_modules/babel-runtime/helpers/inherits.js",
+      "name": "./node_modules/babel-runtime/helpers/inherits.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/helpers/inherits.js",
+      "name": "./node_modules/babel-runtime/helpers/inherits.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "babel-runtime/helpers/objectWithoutProperties": [
+    {
+      "id": "./node_modules/babel-runtime/helpers/objectWithoutProperties.js",
+      "name": "./node_modules/babel-runtime/helpers/objectWithoutProperties.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/helpers/objectWithoutProperties.js",
+      "name": "./node_modules/babel-runtime/helpers/objectWithoutProperties.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "babel-runtime/helpers/possibleConstructorReturn": [
+    {
+      "id": "./node_modules/babel-runtime/helpers/possibleConstructorReturn.js",
+      "name": "./node_modules/babel-runtime/helpers/possibleConstructorReturn.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/helpers/possibleConstructorReturn.js",
+      "name": "./node_modules/babel-runtime/helpers/possibleConstructorReturn.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "babel-runtime/helpers/toConsumableArray": [
+    {
+      "id": "./node_modules/babel-runtime/helpers/toConsumableArray.js",
+      "name": "./node_modules/babel-runtime/helpers/toConsumableArray.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/helpers/toConsumableArray.js",
+      "name": "./node_modules/babel-runtime/helpers/toConsumableArray.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "core-js/library/fn/array/from": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/array/from.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/array/from.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/array/from.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/array/from.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "core-js/library/fn/object/assign": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/assign.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/assign.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/assign.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/assign.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "core-js/library/fn/object/create": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/create.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/create.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/create.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/create.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "core-js/library/fn/object/define-property": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/define-property.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/define-property.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/define-property.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/define-property.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "core-js/library/fn/object/set-prototype-of": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/set-prototype-of.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/set-prototype-of.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/set-prototype-of.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/object/set-prototype-of.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "core-js/library/fn/symbol": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/index.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/index.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "core-js/library/fn/symbol/iterator": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/iterator.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/iterator.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/iterator.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/fn/symbol/iterator.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_a-function": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_a-function.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_a-function.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_a-function.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_a-function.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_add-to-unscopables": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_add-to-unscopables.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_add-to-unscopables.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_add-to-unscopables.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_add-to-unscopables.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_an-object": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_an-object.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_an-object.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_an-object.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_an-object.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_array-includes": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_array-includes.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_array-includes.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_array-includes.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_array-includes.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_classof": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_classof.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_classof.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_classof.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_classof.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_cof": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_cof.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_cof.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_cof.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_cof.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/_core": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_core.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_create-property": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_create-property.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_create-property.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_create-property.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_create-property.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_ctx": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_ctx.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_ctx.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_ctx.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_ctx.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_defined": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_defined.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_defined.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_defined.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_defined.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_descriptors": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_descriptors.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_dom-create": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_dom-create.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_dom-create.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_dom-create.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_dom-create.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_enum-bug-keys": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-bug-keys.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-bug-keys.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-bug-keys.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-bug-keys.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_enum-keys": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-keys.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-keys.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-keys.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_enum-keys.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_export": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_export.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_fails": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_fails.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_global": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_global.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_has": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_has.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_hide": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_hide.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_html": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_html.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_html.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_html.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_html.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_ie8-dom-define": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_ie8-dom-define.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_ie8-dom-define.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_ie8-dom-define.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_ie8-dom-define.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_iobject": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iobject.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iobject.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iobject.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iobject.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_is-array-iter": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-array-iter.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-array-iter.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-array-iter.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-array-iter.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_is-array": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-array.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-array.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-array.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-array.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_is-object": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_is-object.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_iter-call": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-call.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-call.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-call.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-call.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_iter-create": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-create.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-create.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-create.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-create.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_iter-define": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-define.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-define.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-define.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-define.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_iter-detect": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-detect.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-detect.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-detect.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-detect.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_iter-step": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-step.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-step.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-step.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iter-step.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_iterators": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iterators.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iterators.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iterators.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_iterators.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_library": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_library.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_library.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_library.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_library.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_meta": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_meta.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_meta.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_meta.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_meta.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_object-assign": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-assign.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-assign.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-assign.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-assign.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_object-create": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-create.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-create.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-create.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-create.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_object-dp": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dp.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_object-dps": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dps.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dps.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dps.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-dps.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_object-gopd": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopd.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopd.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopd.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopd.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_object-gopn-ext": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn-ext.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn-ext.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn-ext.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn-ext.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_object-gopn": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gopn.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_object-gops": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gops.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gops.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gops.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gops.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_object-gpo": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gpo.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gpo.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gpo.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-gpo.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_object-keys-internal": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys-internal.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys-internal.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys-internal.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys-internal.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_object-keys": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-keys.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_object-pie": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-pie.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-pie.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-pie.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_object-pie.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_property-desc": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_property-desc.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_property-desc.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_property-desc.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_property-desc.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_redefine": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_redefine.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_redefine.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_redefine.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_redefine.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_set-proto": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_set-proto.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_set-proto.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_set-proto.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_set-proto.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_set-to-string-tag": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_set-to-string-tag.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_set-to-string-tag.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_set-to-string-tag.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_set-to-string-tag.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_shared-key": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_shared-key.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_shared-key.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_shared-key.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_shared-key.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_shared": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_shared.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_shared.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_shared.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_shared.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_string-at": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_string-at.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_string-at.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_string-at.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_string-at.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_to-absolute-index": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-absolute-index.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-absolute-index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-absolute-index.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-absolute-index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_to-integer": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-integer.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-integer.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-integer.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-integer.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_to-iobject": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-iobject.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_to-length": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-length.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-length.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-length.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-length.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_to-object": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-object.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-object.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-object.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-object.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_to-primitive": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-primitive.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-primitive.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-primitive.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_to-primitive.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_uid": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_uid.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_uid.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_uid.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_uid.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_wks-define": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-define.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-define.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-define.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-define.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/_wks-ext": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-ext.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-ext.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-ext.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_wks-ext.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./_wks": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_wks.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_wks.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_wks.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/_wks.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./core.get-iterator-method": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/core.get-iterator-method.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/core.get-iterator-method.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/core.get-iterator-method.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/core.get-iterator-method.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/es6.array.from": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.array.from.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.array.from.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.array.from.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.array.from.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./es6.array.iterator": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.array.iterator.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.array.iterator.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.array.iterator.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.array.iterator.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/es6.object.assign": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.assign.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.assign.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.assign.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.assign.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/es6.object.create": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.create.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.create.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.create.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.create.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/es6.object.define-property": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.define-property.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.define-property.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.define-property.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.define-property.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/es6.object.set-prototype-of": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/es6.object.to-string": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.to-string.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.to-string.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.to-string.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.object.to-string.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/es6.string.iterator": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.string.iterator.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.string.iterator.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.string.iterator.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.string.iterator.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/es6.symbol": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.symbol.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.symbol.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.symbol.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es6.symbol.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/es7.symbol.async-iterator": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.async-iterator.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.async-iterator.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.async-iterator.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.async-iterator.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/es7.symbol.observable": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.observable.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.observable.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.observable.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/es7.symbol.observable.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../../modules/web.dom.iterable": [
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/web.dom.iterable.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/web.dom.iterable.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/babel-runtime/node_modules/core-js/library/modules/web.dom.iterable.js",
+      "name": "./node_modules/babel-runtime/node_modules/core-js/library/modules/web.dom.iterable.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "base64-js": [
+    {
+      "id": "./node_modules/base64-js/index.js",
+      "name": "./node_modules/base64-js/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/base64-js/index.js",
       "name": "./node_modules/base64-js/index.js",
@@ -589,11 +2935,29 @@
     {
       "id": "./node_modules/buffer/index.js",
       "name": "./node_modules/buffer/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/buffer/index.js",
+      "name": "./node_modules/buffer/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "isarray": [
+    {
+      "id": "./node_modules/buffer/node_modules/isarray/index.js",
+      "name": "./node_modules/buffer/node_modules/isarray/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/isarray/index.js",
+      "name": "./node_modules/isarray/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/buffer/node_modules/isarray/index.js",
       "name": "./node_modules/buffer/node_modules/isarray/index.js",
@@ -607,7 +2971,329 @@
       "publicPath": "/statics/js/vendors.js"
     }
   ],
+  "classnames": [
+    {
+      "id": "./node_modules/classnames/index.js",
+      "name": "./node_modules/classnames/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/classnames/index.js",
+      "name": "./node_modules/classnames/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "component-classes": [
+    {
+      "id": "./node_modules/component-classes/index.js",
+      "name": "./node_modules/component-classes/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/component-classes/index.js",
+      "name": "./node_modules/component-classes/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "component-indexof": [
+    {
+      "id": "./node_modules/component-indexof/index.js",
+      "name": "./node_modules/component-indexof/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/component-indexof/index.js",
+      "name": "./node_modules/component-indexof/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./Event": [
+    {
+      "id": "./node_modules/css-animation/es/Event.js",
+      "name": "./node_modules/css-animation/es/Event.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/css-animation/es/Event.js",
+      "name": "./node_modules/css-animation/es/Event.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "css-animation": [
+    {
+      "id": "./node_modules/css-animation/es/index.js",
+      "name": "./node_modules/css-animation/es/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/css-animation/es/index.js",
+      "name": "./node_modules/css-animation/es/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../adjustForViewport": [
+    {
+      "id": "./node_modules/dom-align/es/adjustForViewport.js",
+      "name": "./node_modules/dom-align/es/adjustForViewport.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/adjustForViewport.js",
+      "name": "./node_modules/dom-align/es/adjustForViewport.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./align": [
+    {
+      "id": "./node_modules/dom-align/es/align/align.js",
+      "name": "./node_modules/dom-align/es/align/align.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/align/align.js",
+      "name": "./node_modules/dom-align/es/align/align.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./align/alignElement": [
+    {
+      "id": "./node_modules/dom-align/es/align/alignElement.js",
+      "name": "./node_modules/dom-align/es/align/alignElement.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/align/alignElement.js",
+      "name": "./node_modules/dom-align/es/align/alignElement.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./align/alignPoint": [
+    {
+      "id": "./node_modules/dom-align/es/align/alignPoint.js",
+      "name": "./node_modules/dom-align/es/align/alignPoint.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/align/alignPoint.js",
+      "name": "./node_modules/dom-align/es/align/alignPoint.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./getAlignOffset": [
+    {
+      "id": "./node_modules/dom-align/es/getAlignOffset.js",
+      "name": "./node_modules/dom-align/es/getAlignOffset.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/getAlignOffset.js",
+      "name": "./node_modules/dom-align/es/getAlignOffset.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../getElFuturePos": [
+    {
+      "id": "./node_modules/dom-align/es/getElFuturePos.js",
+      "name": "./node_modules/dom-align/es/getElFuturePos.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/getElFuturePos.js",
+      "name": "./node_modules/dom-align/es/getElFuturePos.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../getOffsetParent": [
+    {
+      "id": "./node_modules/dom-align/es/getOffsetParent.js",
+      "name": "./node_modules/dom-align/es/getOffsetParent.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/getOffsetParent.js",
+      "name": "./node_modules/dom-align/es/getOffsetParent.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../getRegion": [
+    {
+      "id": "./node_modules/dom-align/es/getRegion.js",
+      "name": "./node_modules/dom-align/es/getRegion.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/getRegion.js",
+      "name": "./node_modules/dom-align/es/getRegion.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "../getVisibleRectForElement": [
+    {
+      "id": "./node_modules/dom-align/es/getVisibleRectForElement.js",
+      "name": "./node_modules/dom-align/es/getVisibleRectForElement.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/getVisibleRectForElement.js",
+      "name": "./node_modules/dom-align/es/getVisibleRectForElement.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "dom-align": [
+    {
+      "id": "./node_modules/dom-align/es/index.js",
+      "name": "./node_modules/dom-align/es/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/index.js",
+      "name": "./node_modules/dom-align/es/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./isAncestorFixed": [
+    {
+      "id": "./node_modules/dom-align/es/isAncestorFixed.js",
+      "name": "./node_modules/dom-align/es/isAncestorFixed.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/isAncestorFixed.js",
+      "name": "./node_modules/dom-align/es/isAncestorFixed.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./propertyUtils": [
+    {
+      "id": "./node_modules/dom-align/es/propertyUtils.js",
+      "name": "./node_modules/dom-align/es/propertyUtils.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-align/es/propertyUtils.js",
+      "name": "./node_modules/dom-align/es/propertyUtils.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./dom-scroll-into-view": [
+    {
+      "id": "./node_modules/dom-scroll-into-view/lib/dom-scroll-into-view.js",
+      "name": "./node_modules/dom-scroll-into-view/lib/dom-scroll-into-view.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-scroll-into-view/lib/dom-scroll-into-view.js",
+      "name": "./node_modules/dom-scroll-into-view/lib/dom-scroll-into-view.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "dom-scroll-into-view": [
+    {
+      "id": "./node_modules/dom-scroll-into-view/lib/index.js",
+      "name": "./node_modules/dom-scroll-into-view/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-scroll-into-view/lib/index.js",
+      "name": "./node_modules/dom-scroll-into-view/lib/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./util": [
+    {
+      "id": "./node_modules/dom-scroll-into-view/lib/util.js",
+      "name": "./node_modules/dom-scroll-into-view/lib/util.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-align/es/util.js",
+      "name": "./node_modules/rc-align/es/util.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/util.js",
+      "name": "./node_modules/rc-menu/es/util.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/url/util.js",
+      "name": "./node_modules/url/util.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/dom-scroll-into-view/lib/util.js",
+      "name": "./node_modules/dom-scroll-into-view/lib/util.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/rc-align/es/util.js",
+      "name": "./node_modules/rc-align/es/util.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/util.js",
+      "name": "./node_modules/rc-menu/es/util.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    },
+    {
+      "id": "./node_modules/url/util.js",
+      "name": "./node_modules/url/util.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
   "events": [
+    {
+      "id": "./node_modules/events/events.js",
+      "name": "./node_modules/events/events.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/events/events.js",
       "name": "./node_modules/events/events.js",
@@ -619,11 +3305,23 @@
     {
       "id": "./node_modules/fast-json-stable-stringify/index.js",
       "name": "./node_modules/fast-json-stable-stringify/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/fast-json-stable-stringify/index.js",
+      "name": "./node_modules/fast-json-stable-stringify/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "fclone": [
+    {
+      "id": "./node_modules/fclone/dist/fclone.js",
+      "name": "./node_modules/fclone/dist/fclone.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/fclone/dist/fclone.js",
       "name": "./node_modules/fclone/dist/fclone.js",
@@ -635,11 +3333,23 @@
     {
       "id": "./node_modules/graphql-anywhere/lib/graphql.js",
       "name": "./node_modules/graphql-anywhere/lib/graphql.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/graphql.js",
+      "name": "./node_modules/graphql-anywhere/lib/graphql.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "graphql-anywhere": [
+    {
+      "id": "./node_modules/graphql-anywhere/lib/index.js",
+      "name": "./node_modules/graphql-anywhere/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/graphql-anywhere/lib/index.js",
       "name": "./node_modules/graphql-anywhere/lib/index.js",
@@ -651,11 +3361,23 @@
     {
       "id": "./node_modules/graphql-anywhere/lib/utilities.js",
       "name": "./node_modules/graphql-anywhere/lib/utilities.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/graphql-anywhere/lib/utilities.js",
+      "name": "./node_modules/graphql-anywhere/lib/utilities.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "graphql/language/printer": [
+    {
+      "id": "./node_modules/graphql/language/printer.js",
+      "name": "./node_modules/graphql/language/printer.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/graphql/language/printer.js",
       "name": "./node_modules/graphql/language/printer.js",
@@ -667,11 +3389,23 @@
     {
       "id": "./node_modules/graphql/language/visitor.js",
       "name": "./node_modules/graphql/language/visitor.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/graphql/language/visitor.js",
+      "name": "./node_modules/graphql/language/visitor.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./DOMUtils": [
+    {
+      "id": "./node_modules/history/es/DOMUtils.js",
+      "name": "./node_modules/history/es/DOMUtils.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/history/es/DOMUtils.js",
       "name": "./node_modules/history/es/DOMUtils.js",
@@ -683,11 +3417,23 @@
     {
       "id": "./node_modules/history/es/LocationUtils.js",
       "name": "./node_modules/history/es/LocationUtils.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/history/es/LocationUtils.js",
+      "name": "./node_modules/history/es/LocationUtils.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./PathUtils": [
+    {
+      "id": "./node_modules/history/es/PathUtils.js",
+      "name": "./node_modules/history/es/PathUtils.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/history/es/PathUtils.js",
       "name": "./node_modules/history/es/PathUtils.js",
@@ -699,11 +3445,23 @@
     {
       "id": "./node_modules/history/es/createBrowserHistory.js",
       "name": "./node_modules/history/es/createBrowserHistory.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/history/es/createBrowserHistory.js",
+      "name": "./node_modules/history/es/createBrowserHistory.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./createHashHistory": [
+    {
+      "id": "./node_modules/history/es/createHashHistory.js",
+      "name": "./node_modules/history/es/createHashHistory.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/history/es/createHashHistory.js",
       "name": "./node_modules/history/es/createHashHistory.js",
@@ -715,11 +3473,23 @@
     {
       "id": "./node_modules/history/es/createMemoryHistory.js",
       "name": "./node_modules/history/es/createMemoryHistory.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/history/es/createMemoryHistory.js",
+      "name": "./node_modules/history/es/createMemoryHistory.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./createTransitionManager": [
+    {
+      "id": "./node_modules/history/es/createTransitionManager.js",
+      "name": "./node_modules/history/es/createTransitionManager.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/history/es/createTransitionManager.js",
       "name": "./node_modules/history/es/createTransitionManager.js",
@@ -731,11 +3501,29 @@
     {
       "id": "./node_modules/history/es/index.js",
       "name": "./node_modules/history/es/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/history/es/index.js",
+      "name": "./node_modules/history/es/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "warning": [
+    {
+      "id": "./node_modules/history/node_modules/warning/browser.js",
+      "name": "./node_modules/history/node_modules/warning/browser.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/warning/warning.js",
+      "name": "./node_modules/warning/warning.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/history/node_modules/warning/browser.js",
       "name": "./node_modules/history/node_modules/warning/browser.js",
@@ -753,11 +3541,23 @@
     {
       "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "html-entities": [
+    {
+      "id": "./node_modules/html-entities/index.js",
+      "name": "./node_modules/html-entities/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/html-entities/index.js",
       "name": "./node_modules/html-entities/index.js",
@@ -769,11 +3569,23 @@
     {
       "id": "./node_modules/html-entities/lib/html4-entities.js",
       "name": "./node_modules/html-entities/lib/html4-entities.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/html-entities/lib/html4-entities.js",
+      "name": "./node_modules/html-entities/lib/html4-entities.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./lib/html5-entities.js": [
+    {
+      "id": "./node_modules/html-entities/lib/html5-entities.js",
+      "name": "./node_modules/html-entities/lib/html5-entities.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/html-entities/lib/html5-entities.js",
       "name": "./node_modules/html-entities/lib/html5-entities.js",
@@ -785,11 +3597,23 @@
     {
       "id": "./node_modules/html-entities/lib/xml-entities.js",
       "name": "./node_modules/html-entities/lib/xml-entities.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/html-entities/lib/xml-entities.js",
+      "name": "./node_modules/html-entities/lib/xml-entities.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "ieee754": [
+    {
+      "id": "./node_modules/ieee754/index.js",
+      "name": "./node_modules/ieee754/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/ieee754/index.js",
       "name": "./node_modules/ieee754/index.js",
@@ -801,6 +3625,12 @@
     {
       "id": "./node_modules/invariant/browser.js",
       "name": "./node_modules/invariant/browser.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/invariant/browser.js",
+      "name": "./node_modules/invariant/browser.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
@@ -809,11 +3639,107 @@
     {
       "id": "./node_modules/loglevel/lib/loglevel.js",
       "name": "./node_modules/loglevel/lib/loglevel.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/loglevel/lib/loglevel.js",
+      "name": "./node_modules/loglevel/lib/loglevel.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./PropTypes": [
+    {
+      "id": "./node_modules/mini-store/lib/PropTypes.js",
+      "name": "./node_modules/mini-store/lib/PropTypes.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/mini-store/lib/PropTypes.js",
+      "name": "./node_modules/mini-store/lib/PropTypes.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./Provider": [
+    {
+      "id": "./node_modules/mini-store/lib/Provider.js",
+      "name": "./node_modules/mini-store/lib/Provider.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/mini-store/lib/Provider.js",
+      "name": "./node_modules/mini-store/lib/Provider.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./connect": [
+    {
+      "id": "./node_modules/mini-store/lib/connect.js",
+      "name": "./node_modules/mini-store/lib/connect.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/mini-store/lib/connect.js",
+      "name": "./node_modules/mini-store/lib/connect.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./create": [
+    {
+      "id": "./node_modules/mini-store/lib/create.js",
+      "name": "./node_modules/mini-store/lib/create.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/mini-store/lib/create.js",
+      "name": "./node_modules/mini-store/lib/create.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "mini-store": [
+    {
+      "id": "./node_modules/mini-store/lib/index.js",
+      "name": "./node_modules/mini-store/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/mini-store/lib/index.js",
+      "name": "./node_modules/mini-store/lib/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "mutationobserver-shim": [
+    {
+      "id": "./node_modules/mutationobserver-shim/dist/mutationobserver.min.js",
+      "name": "./node_modules/mutationobserver-shim/dist/mutationobserver.min.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/mutationobserver-shim/dist/mutationobserver.min.js",
+      "name": "./node_modules/mutationobserver-shim/dist/mutationobserver.min.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "punycode": [
+    {
+      "id": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
+      "name": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
       "name": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
@@ -825,11 +3751,51 @@
     {
       "id": "./node_modules/object-assign/index.js",
       "name": "./node_modules/object-assign/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/object-assign/index.js",
+      "name": "./node_modules/object-assign/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "omit.js": [
+    {
+      "id": "./node_modules/omit.js/es/index.js",
+      "name": "./node_modules/omit.js/es/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/omit.js/es/index.js",
+      "name": "./node_modules/omit.js/es/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "performance-now": [
+    {
+      "id": "./node_modules/performance-now/lib/performance-now.js",
+      "name": "./node_modules/performance-now/lib/performance-now.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/performance-now/lib/performance-now.js",
+      "name": "./node_modules/performance-now/lib/performance-now.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./../../../process/browser.js": [
+    {
+      "id": "./node_modules/process/browser.js",
+      "name": "./node_modules/process/browser.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/process/browser.js",
       "name": "./node_modules/process/browser.js",
@@ -841,11 +3807,23 @@
     {
       "id": "./node_modules/prop-types/checkPropTypes.js",
       "name": "./node_modules/prop-types/checkPropTypes.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/prop-types/checkPropTypes.js",
+      "name": "./node_modules/prop-types/checkPropTypes.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./factoryWithTypeCheckers": [
+    {
+      "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+      "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
       "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
@@ -857,11 +3835,23 @@
     {
       "id": "./node_modules/prop-types/index.js",
       "name": "./node_modules/prop-types/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/prop-types/index.js",
+      "name": "./node_modules/prop-types/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./lib/ReactPropTypesSecret": [
+    {
+      "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
       "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
@@ -873,11 +3863,23 @@
     {
       "id": "./node_modules/querystring-es3/decode.js",
       "name": "./node_modules/querystring-es3/decode.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/querystring-es3/decode.js",
+      "name": "./node_modules/querystring-es3/decode.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./encode": [
+    {
+      "id": "./node_modules/querystring-es3/encode.js",
+      "name": "./node_modules/querystring-es3/encode.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/querystring-es3/encode.js",
       "name": "./node_modules/querystring-es3/encode.js",
@@ -889,11 +3891,429 @@
     {
       "id": "./node_modules/querystring-es3/index.js",
       "name": "./node_modules/querystring-es3/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/querystring-es3/index.js",
+      "name": "./node_modules/querystring-es3/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "raf": [
+    {
+      "id": "./node_modules/raf/index.js",
+      "name": "./node_modules/raf/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/raf/index.js",
+      "name": "./node_modules/raf/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./Align": [
+    {
+      "id": "./node_modules/rc-align/es/Align.js",
+      "name": "./node_modules/rc-align/es/Align.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-align/es/Align.js",
+      "name": "./node_modules/rc-align/es/Align.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "rc-align": [
+    {
+      "id": "./node_modules/rc-align/es/index.js",
+      "name": "./node_modules/rc-align/es/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-align/es/index.js",
+      "name": "./node_modules/rc-align/es/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "rc-animate": [
+    {
+      "id": "./node_modules/rc-animate/es/Animate.js",
+      "name": "./node_modules/rc-animate/es/Animate.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-animate/es/Animate.js",
+      "name": "./node_modules/rc-animate/es/Animate.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./AnimateChild": [
+    {
+      "id": "./node_modules/rc-animate/es/AnimateChild.js",
+      "name": "./node_modules/rc-animate/es/AnimateChild.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-animate/es/AnimateChild.js",
+      "name": "./node_modules/rc-animate/es/AnimateChild.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./CSSMotion": [
+    {
+      "id": "./node_modules/rc-animate/es/CSSMotion.js",
+      "name": "./node_modules/rc-animate/es/CSSMotion.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-animate/es/CSSMotion.js",
+      "name": "./node_modules/rc-animate/es/CSSMotion.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./ChildrenUtils": [
+    {
+      "id": "./node_modules/rc-animate/es/ChildrenUtils.js",
+      "name": "./node_modules/rc-animate/es/ChildrenUtils.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-animate/es/ChildrenUtils.js",
+      "name": "./node_modules/rc-animate/es/ChildrenUtils.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./util/animate": [
+    {
+      "id": "./node_modules/rc-animate/es/util/animate.js",
+      "name": "./node_modules/rc-animate/es/util/animate.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-animate/es/util/animate.js",
+      "name": "./node_modules/rc-animate/es/util/animate.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./util/motion": [
+    {
+      "id": "./node_modules/rc-animate/es/util/motion.js",
+      "name": "./node_modules/rc-animate/es/util/motion.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-animate/es/util/motion.js",
+      "name": "./node_modules/rc-animate/es/util/motion.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./DOMWrap": [
+    {
+      "id": "./node_modules/rc-menu/es/DOMWrap.js",
+      "name": "./node_modules/rc-menu/es/DOMWrap.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/DOMWrap.js",
+      "name": "./node_modules/rc-menu/es/DOMWrap.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./Divider": [
+    {
+      "id": "./node_modules/rc-menu/es/Divider.js",
+      "name": "./node_modules/rc-menu/es/Divider.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/Divider.js",
+      "name": "./node_modules/rc-menu/es/Divider.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./Menu": [
+    {
+      "id": "./node_modules/rc-menu/es/Menu.js",
+      "name": "./node_modules/rc-menu/es/Menu.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/Menu.js",
+      "name": "./node_modules/rc-menu/es/Menu.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./MenuItemGroup": [
+    {
+      "id": "./node_modules/rc-menu/es/MenuItemGroup.js",
+      "name": "./node_modules/rc-menu/es/MenuItemGroup.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/MenuItemGroup.js",
+      "name": "./node_modules/rc-menu/es/MenuItemGroup.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./SubPopupMenu": [
+    {
+      "id": "./node_modules/rc-menu/es/SubPopupMenu.js",
+      "name": "./node_modules/rc-menu/es/SubPopupMenu.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/SubPopupMenu.js",
+      "name": "./node_modules/rc-menu/es/SubPopupMenu.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "rc-menu": [
+    {
+      "id": "./node_modules/rc-menu/es/index.js",
+      "name": "./node_modules/rc-menu/es/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-menu/es/index.js",
+      "name": "./node_modules/rc-menu/es/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./Content": [
+    {
+      "id": "./node_modules/rc-tooltip/es/Content.js",
+      "name": "./node_modules/rc-tooltip/es/Content.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-tooltip/es/Content.js",
+      "name": "./node_modules/rc-tooltip/es/Content.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./Tooltip": [
+    {
+      "id": "./node_modules/rc-tooltip/es/Tooltip.js",
+      "name": "./node_modules/rc-tooltip/es/Tooltip.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-tooltip/es/Tooltip.js",
+      "name": "./node_modules/rc-tooltip/es/Tooltip.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "rc-tooltip": [
+    {
+      "id": "./node_modules/rc-tooltip/es/index.js",
+      "name": "./node_modules/rc-tooltip/es/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-tooltip/es/index.js",
+      "name": "./node_modules/rc-tooltip/es/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "rc-tooltip/es/placements": [
+    {
+      "id": "./node_modules/rc-tooltip/es/placements.js",
+      "name": "./node_modules/rc-tooltip/es/placements.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-tooltip/es/placements.js",
+      "name": "./node_modules/rc-tooltip/es/placements.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./LazyRenderBox": [
+    {
+      "id": "./node_modules/rc-trigger/es/LazyRenderBox.js",
+      "name": "./node_modules/rc-trigger/es/LazyRenderBox.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-trigger/es/LazyRenderBox.js",
+      "name": "./node_modules/rc-trigger/es/LazyRenderBox.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./Popup": [
+    {
+      "id": "./node_modules/rc-trigger/es/Popup.js",
+      "name": "./node_modules/rc-trigger/es/Popup.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-trigger/es/Popup.js",
+      "name": "./node_modules/rc-trigger/es/Popup.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "./PopupInner": [
+    {
+      "id": "./node_modules/rc-trigger/es/PopupInner.js",
+      "name": "./node_modules/rc-trigger/es/PopupInner.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-trigger/es/PopupInner.js",
+      "name": "./node_modules/rc-trigger/es/PopupInner.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "rc-trigger": [
+    {
+      "id": "./node_modules/rc-trigger/es/index.js",
+      "name": "./node_modules/rc-trigger/es/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-trigger/es/index.js",
+      "name": "./node_modules/rc-trigger/es/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "rc-util/es/ContainerRender": [
+    {
+      "id": "./node_modules/rc-util/es/ContainerRender.js",
+      "name": "./node_modules/rc-util/es/ContainerRender.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-util/es/ContainerRender.js",
+      "name": "./node_modules/rc-util/es/ContainerRender.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "rc-util/es/Dom/addEventListener": [
+    {
+      "id": "./node_modules/rc-util/es/Dom/addEventListener.js",
+      "name": "./node_modules/rc-util/es/Dom/addEventListener.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-util/es/Dom/addEventListener.js",
+      "name": "./node_modules/rc-util/es/Dom/addEventListener.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "rc-util/es/Dom/contains": [
+    {
+      "id": "./node_modules/rc-util/es/Dom/contains.js",
+      "name": "./node_modules/rc-util/es/Dom/contains.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-util/es/Dom/contains.js",
+      "name": "./node_modules/rc-util/es/Dom/contains.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "rc-util/es/KeyCode": [
+    {
+      "id": "./node_modules/rc-util/es/KeyCode.js",
+      "name": "./node_modules/rc-util/es/KeyCode.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-util/es/KeyCode.js",
+      "name": "./node_modules/rc-util/es/KeyCode.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "rc-util/es/Portal": [
+    {
+      "id": "./node_modules/rc-util/es/Portal.js",
+      "name": "./node_modules/rc-util/es/Portal.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-util/es/Portal.js",
+      "name": "./node_modules/rc-util/es/Portal.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "rc-util/es/createChainedFunction": [
+    {
+      "id": "./node_modules/rc-util/es/createChainedFunction.js",
+      "name": "./node_modules/rc-util/es/createChainedFunction.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/rc-util/es/createChainedFunction.js",
+      "name": "./node_modules/rc-util/es/createChainedFunction.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "react-apollo/ApolloProvider": [
+    {
+      "id": "./node_modules/react-apollo/ApolloProvider.js",
+      "name": "./node_modules/react-apollo/ApolloProvider.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-apollo/ApolloProvider.js",
       "name": "./node_modules/react-apollo/ApolloProvider.js",
@@ -905,6 +4325,12 @@
     {
       "id": "./node_modules/react-dom/cjs/react-dom.development.js",
       "name": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.development.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
@@ -913,11 +4339,37 @@
     {
       "id": "./node_modules/react-dom/index.js",
       "name": "./node_modules/react-dom/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "react-lifecycles-compat": [
+    {
+      "id": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "name": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
+      "name": "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "react-loadable": [
+    {
+      "id": "./node_modules/react-loadable/lib/index.js",
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-loadable/lib/index.js",
       "name": "./node_modules/react-loadable/lib/index.js",
@@ -929,11 +4381,29 @@
     {
       "id": "./node_modules/react-router-dom/BrowserRouter.js",
       "name": "./node_modules/react-router-dom/BrowserRouter.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router-dom/BrowserRouter.js",
+      "name": "./node_modules/react-router-dom/BrowserRouter.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./Router": [
+    {
+      "id": "./node_modules/react-router-dom/Router.js",
+      "name": "./node_modules/react-router-dom/Router.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/Router.js",
+      "name": "./node_modules/react-router-dom/es/Router.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router-dom/Router.js",
       "name": "./node_modules/react-router-dom/Router.js",
@@ -951,11 +4421,23 @@
     {
       "id": "./node_modules/react-router-dom/es/BrowserRouter.js",
       "name": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "name": "./node_modules/react-router-dom/es/BrowserRouter.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./HashRouter": [
+    {
+      "id": "./node_modules/react-router-dom/es/HashRouter.js",
+      "name": "./node_modules/react-router-dom/es/HashRouter.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router-dom/es/HashRouter.js",
       "name": "./node_modules/react-router-dom/es/HashRouter.js",
@@ -967,11 +4449,23 @@
     {
       "id": "./node_modules/react-router-dom/es/Link.js",
       "name": "./node_modules/react-router-dom/es/Link.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/Link.js",
+      "name": "./node_modules/react-router-dom/es/Link.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./MemoryRouter": [
+    {
+      "id": "./node_modules/react-router-dom/es/MemoryRouter.js",
+      "name": "./node_modules/react-router-dom/es/MemoryRouter.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router-dom/es/MemoryRouter.js",
       "name": "./node_modules/react-router-dom/es/MemoryRouter.js",
@@ -983,11 +4477,23 @@
     {
       "id": "./node_modules/react-router-dom/es/NavLink.js",
       "name": "./node_modules/react-router-dom/es/NavLink.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/NavLink.js",
+      "name": "./node_modules/react-router-dom/es/NavLink.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./Prompt": [
+    {
+      "id": "./node_modules/react-router-dom/es/Prompt.js",
+      "name": "./node_modules/react-router-dom/es/Prompt.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router-dom/es/Prompt.js",
       "name": "./node_modules/react-router-dom/es/Prompt.js",
@@ -999,11 +4505,23 @@
     {
       "id": "./node_modules/react-router-dom/es/Redirect.js",
       "name": "./node_modules/react-router-dom/es/Redirect.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/Redirect.js",
+      "name": "./node_modules/react-router-dom/es/Redirect.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./Route": [
+    {
+      "id": "./node_modules/react-router-dom/es/Route.js",
+      "name": "./node_modules/react-router-dom/es/Route.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router-dom/es/Route.js",
       "name": "./node_modules/react-router-dom/es/Route.js",
@@ -1015,11 +4533,23 @@
     {
       "id": "./node_modules/react-router-dom/es/StaticRouter.js",
       "name": "./node_modules/react-router-dom/es/StaticRouter.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/StaticRouter.js",
+      "name": "./node_modules/react-router-dom/es/StaticRouter.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./Switch": [
+    {
+      "id": "./node_modules/react-router-dom/es/Switch.js",
+      "name": "./node_modules/react-router-dom/es/Switch.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router-dom/es/Switch.js",
       "name": "./node_modules/react-router-dom/es/Switch.js",
@@ -1031,11 +4561,23 @@
     {
       "id": "./node_modules/react-router-dom/es/generatePath.js",
       "name": "./node_modules/react-router-dom/es/generatePath.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/generatePath.js",
+      "name": "./node_modules/react-router-dom/es/generatePath.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "react-router-dom": [
+    {
+      "id": "./node_modules/react-router-dom/es/index.js",
+      "name": "./node_modules/react-router-dom/es/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router-dom/es/index.js",
       "name": "./node_modules/react-router-dom/es/index.js",
@@ -1047,11 +4589,23 @@
     {
       "id": "./node_modules/react-router-dom/es/matchPath.js",
       "name": "./node_modules/react-router-dom/es/matchPath.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router-dom/es/matchPath.js",
+      "name": "./node_modules/react-router-dom/es/matchPath.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./withRouter": [
+    {
+      "id": "./node_modules/react-router-dom/es/withRouter.js",
+      "name": "./node_modules/react-router-dom/es/withRouter.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router-dom/es/withRouter.js",
       "name": "./node_modules/react-router-dom/es/withRouter.js",
@@ -1063,11 +4617,23 @@
     {
       "id": "./node_modules/react-router/Router.js",
       "name": "./node_modules/react-router/Router.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router/Router.js",
+      "name": "./node_modules/react-router/Router.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "react-router/es/MemoryRouter": [
+    {
+      "id": "./node_modules/react-router/es/MemoryRouter.js",
+      "name": "./node_modules/react-router/es/MemoryRouter.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router/es/MemoryRouter.js",
       "name": "./node_modules/react-router/es/MemoryRouter.js",
@@ -1079,11 +4645,23 @@
     {
       "id": "./node_modules/react-router/es/Prompt.js",
       "name": "./node_modules/react-router/es/Prompt.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router/es/Prompt.js",
+      "name": "./node_modules/react-router/es/Prompt.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "react-router/es/Redirect": [
+    {
+      "id": "./node_modules/react-router/es/Redirect.js",
+      "name": "./node_modules/react-router/es/Redirect.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router/es/Redirect.js",
       "name": "./node_modules/react-router/es/Redirect.js",
@@ -1095,11 +4673,23 @@
     {
       "id": "./node_modules/react-router/es/Route.js",
       "name": "./node_modules/react-router/es/Route.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router/es/Route.js",
+      "name": "./node_modules/react-router/es/Route.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "react-router/es/Router": [
+    {
+      "id": "./node_modules/react-router/es/Router.js",
+      "name": "./node_modules/react-router/es/Router.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router/es/Router.js",
       "name": "./node_modules/react-router/es/Router.js",
@@ -1111,11 +4701,23 @@
     {
       "id": "./node_modules/react-router/es/StaticRouter.js",
       "name": "./node_modules/react-router/es/StaticRouter.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router/es/StaticRouter.js",
+      "name": "./node_modules/react-router/es/StaticRouter.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "react-router/es/Switch": [
+    {
+      "id": "./node_modules/react-router/es/Switch.js",
+      "name": "./node_modules/react-router/es/Switch.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router/es/Switch.js",
       "name": "./node_modules/react-router/es/Switch.js",
@@ -1127,11 +4729,23 @@
     {
       "id": "./node_modules/react-router/es/generatePath.js",
       "name": "./node_modules/react-router/es/generatePath.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router/es/generatePath.js",
+      "name": "./node_modules/react-router/es/generatePath.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "react-router/es/matchPath": [
+    {
+      "id": "./node_modules/react-router/es/matchPath.js",
+      "name": "./node_modules/react-router/es/matchPath.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router/es/matchPath.js",
       "name": "./node_modules/react-router/es/matchPath.js",
@@ -1143,11 +4757,23 @@
     {
       "id": "./node_modules/react-router/es/withRouter.js",
       "name": "./node_modules/react-router/es/withRouter.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react-router/es/withRouter.js",
+      "name": "./node_modules/react-router/es/withRouter.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "path-to-regexp": [
+    {
+      "id": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
       "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
@@ -1159,6 +4785,12 @@
     {
       "id": "./node_modules/react/cjs/react.development.js",
       "name": "./node_modules/react/cjs/react.development.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react/cjs/react.development.js",
+      "name": "./node_modules/react/cjs/react.development.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
@@ -1167,11 +4799,37 @@
     {
       "id": "./node_modules/react/index.js",
       "name": "./node_modules/react/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "resize-observer-polyfill": [
+    {
+      "id": "./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js",
+      "name": "./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js",
+      "name": "./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "resolve-pathname": [
+    {
+      "id": "./node_modules/resolve-pathname/index.js",
+      "name": "./node_modules/resolve-pathname/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/resolve-pathname/index.js",
       "name": "./node_modules/resolve-pathname/index.js",
@@ -1183,11 +4841,23 @@
     {
       "id": "./node_modules/schedule/cjs/schedule-tracing.development.js",
       "name": "./node_modules/schedule/cjs/schedule-tracing.development.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/schedule/cjs/schedule-tracing.development.js",
+      "name": "./node_modules/schedule/cjs/schedule-tracing.development.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./cjs/schedule.development.js": [
+    {
+      "id": "./node_modules/schedule/cjs/schedule.development.js",
+      "name": "./node_modules/schedule/cjs/schedule.development.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/schedule/cjs/schedule.development.js",
       "name": "./node_modules/schedule/cjs/schedule.development.js",
@@ -1199,6 +4869,12 @@
     {
       "id": "./node_modules/schedule/index.js",
       "name": "./node_modules/schedule/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/schedule/index.js",
+      "name": "./node_modules/schedule/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
@@ -1207,11 +4883,37 @@
     {
       "id": "./node_modules/schedule/tracing.js",
       "name": "./node_modules/schedule/tracing.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/schedule/tracing.js",
+      "name": "./node_modules/schedule/tracing.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "shallowequal": [
+    {
+      "id": "./node_modules/shallowequal/index.js",
+      "name": "./node_modules/shallowequal/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/shallowequal/index.js",
+      "name": "./node_modules/shallowequal/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "sockjs-client/dist/sockjs": [
+    {
+      "id": "./node_modules/sockjs-client/dist/sockjs.js",
+      "name": "./node_modules/sockjs-client/dist/sockjs.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/sockjs-client/dist/sockjs.js",
       "name": "./node_modules/sockjs-client/dist/sockjs.js",
@@ -1223,11 +4925,23 @@
     {
       "id": "./node_modules/strip-ansi/index.js",
       "name": "./node_modules/strip-ansi/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/strip-ansi/index.js",
+      "name": "./node_modules/strip-ansi/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "symbol-observable": [
+    {
+      "id": "./node_modules/symbol-observable/index.js",
+      "name": "./node_modules/symbol-observable/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/symbol-observable/index.js",
       "name": "./node_modules/symbol-observable/index.js",
@@ -1239,6 +4953,12 @@
     {
       "id": "./node_modules/symbol-observable/lib/index.js",
       "name": "./node_modules/symbol-observable/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/symbol-observable/lib/index.js",
+      "name": "./node_modules/symbol-observable/lib/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
@@ -1247,6 +4967,26 @@
     {
       "id": "./node_modules/symbol-observable/lib/ponyfill.js",
       "name": "./node_modules/symbol-observable/lib/ponyfill.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/symbol-observable/lib/ponyfill.js",
+      "name": "./node_modules/symbol-observable/lib/ponyfill.js",
+      "file": "js/vendors.js",
+      "publicPath": "/statics/js/vendors.js"
+    }
+  ],
+  "tinycolor2": [
+    {
+      "id": "./node_modules/tinycolor2/tinycolor.js",
+      "name": "./node_modules/tinycolor2/tinycolor.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/tinycolor2/tinycolor.js",
+      "name": "./node_modules/tinycolor2/tinycolor.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
@@ -1255,19 +4995,23 @@
     {
       "id": "./node_modules/url/url.js",
       "name": "./node_modules/url/url.js",
-      "file": "js/vendors.js",
-      "publicPath": "/statics/js/vendors.js"
-    }
-  ],
-  "./util": [
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
-      "id": "./node_modules/url/util.js",
-      "name": "./node_modules/url/util.js",
+      "id": "./node_modules/url/url.js",
+      "name": "./node_modules/url/url.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "value-equal": [
+    {
+      "id": "./node_modules/value-equal/index.js",
+      "name": "./node_modules/value-equal/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/value-equal/index.js",
       "name": "./node_modules/value-equal/index.js",
@@ -1279,11 +5023,23 @@
     {
       "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:3001",
       "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:3001",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:3001",
+      "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:3001",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./overlay": [
+    {
+      "id": "./node_modules/webpack-dev-server/client/overlay.js",
+      "name": "./node_modules/webpack-dev-server/client/overlay.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/webpack-dev-server/client/overlay.js",
       "name": "./node_modules/webpack-dev-server/client/overlay.js",
@@ -1295,11 +5051,23 @@
     {
       "id": "./node_modules/webpack-dev-server/client/socket.js",
       "name": "./node_modules/webpack-dev-server/client/socket.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/webpack-dev-server/client/socket.js",
+      "name": "./node_modules/webpack-dev-server/client/socket.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./../../../webpack/buildin/global.js": [
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/webpack/buildin/global.js",
       "name": "./node_modules/webpack/buildin/global.js",
@@ -1311,11 +5079,23 @@
     {
       "id": "./node_modules/webpack/buildin/module.js",
       "name": "./node_modules/webpack/buildin/module.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/module.js",
+      "name": "./node_modules/webpack/buildin/module.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "webpack/hot/emitter": [
+    {
+      "id": "./node_modules/webpack/hot/emitter.js",
+      "name": "./node_modules/webpack/hot/emitter.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/webpack/hot/emitter.js",
       "name": "./node_modules/webpack/hot/emitter.js",
@@ -1327,11 +5107,23 @@
     {
       "id": "./node_modules/webpack/hot/log.js",
       "name": "./node_modules/webpack/hot/log.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/webpack/hot/log.js",
+      "name": "./node_modules/webpack/hot/log.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "zen-observable-ts": [
+    {
+      "id": "./node_modules/zen-observable-ts/lib/index.js",
+      "name": "./node_modules/zen-observable-ts/lib/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/zen-observable-ts/lib/index.js",
       "name": "./node_modules/zen-observable-ts/lib/index.js",
@@ -1343,6 +5135,12 @@
     {
       "id": "./node_modules/zen-observable-ts/lib/zenObservable.js",
       "name": "./node_modules/zen-observable-ts/lib/zenObservable.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/zen-observable-ts/lib/zenObservable.js",
+      "name": "./node_modules/zen-observable-ts/lib/zenObservable.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
@@ -1351,11 +5149,23 @@
     {
       "id": "./node_modules/zen-observable/index.js",
       "name": "./node_modules/zen-observable/index.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
+    {
+      "id": "./node_modules/zen-observable/index.js",
+      "name": "./node_modules/zen-observable/index.js",
       "file": "js/vendors.js",
       "publicPath": "/statics/js/vendors.js"
     }
   ],
   "./lib/Observable.js": [
+    {
+      "id": "./node_modules/zen-observable/lib/Observable.js",
+      "name": "./node_modules/zen-observable/lib/Observable.js",
+      "file": "css/vendors.css",
+      "publicPath": "/statics/css/vendors.css"
+    },
     {
       "id": "./node_modules/zen-observable/lib/Observable.js",
       "name": "./node_modules/zen-observable/lib/Observable.js",
