@@ -4,6 +4,9 @@ const NodeExternals = require( 'webpack-node-externals' );
 const EslintFormatter = require( 'react-dev-utils/eslintFormatter' );
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const PrettierPlugin = require("prettier-webpack-plugin");
+const GetCSSModuleLocalIdent = require( '@resuelve/react-dev-utils/getCSSModuleLocalIdent' );
+const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' );
+
 module.exports = {
   target: 'node',
   entry: Path.join( process.cwd(), '/src/server/index.ts' ),
@@ -95,6 +98,40 @@ module.exports = {
             test: /\.css$/,
             use: [
               require.resolve( 'css-loader' )
+            ]
+          },
+          {
+            test: /\.module\.(less)$/,
+            use: [
+              MiniCssExtractPlugin.loader,
+              {
+                loader: require.resolve('css-loader'),
+                options: {
+                  importLoaders: 2,
+                  sourceMap: true,
+                  modules: true,
+                  getLocalIdent: GetCSSModuleLocalIdent
+                }
+              },
+              {
+                loader: require.resolve('postcss-loader'),
+                options: {
+                  ident: 'postcss',
+                  plugins: () => ( [
+                    require('postcss-flexbugs-fixes'),
+                    AutoPrefixer( {
+                      flexbox: 'no-2009'
+                    } )
+                  ] ),
+                  sourceMap: true
+                }
+              },
+              {
+                loader: require.resolve( 'less-loader' ),
+                options: {
+                  sourceMap: true
+                }
+              }
             ]
           },
           /*{

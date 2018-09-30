@@ -4,6 +4,7 @@ import * as React from 'react';
 } from 'react-apollo';*/
 import { Route, Switch }  from 'react-router-dom';
 
+import Routes from '../../routes';
 // import { COMMON_USER_TYPE, ACCOUNT_USER_TYPE }  from '../../../universal/enums/consts';
 
 // import GetCurrentUser from '../../../graphql/queries/Github.graphql';
@@ -105,7 +106,7 @@ export default class App extends React.Component<any,any> {
     );
   }*/
 
-  public render() {
+  render() {
     return (
       <Router
         context={ this.props.context }
@@ -129,7 +130,7 @@ export default class App extends React.Component<any,any> {
             render={ () => ( "Forgot Password" ) }
             />
           <Route
-            render={ () => ( "Route" ) }
+            component={ Routes }
             />
         </Switch>
       </Router>

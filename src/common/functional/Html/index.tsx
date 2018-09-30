@@ -1,11 +1,11 @@
 import * as React from "react";
-
+import { IProps } from './types.d';
 const FavIcon = "abc.png";
 
 
 import _ from 'lodash';
 
-const Html = ( props ) => {
+const Html = ( props: IProps ) => {
     return (
       <html
         lang='en'
@@ -16,8 +16,8 @@ const Html = ( props ) => {
           <title>Notification Console</title>
           <link rel='shortcut icon' type='image/x-icon' href={ FavIcon } />
           <link rel='icon' type='image/x-icon' href={ FavIcon } />
-          {/*<link rel='stylesheet' type='text/css' href='/statics/css/vendors.css' />
-                    <link rel='stylesheet' type='text/css' href='/statics/css/index.css' />*/}
+          <link rel='stylesheet' type='text/css' href='/statics/css/vendors.css' />
+          <link rel='stylesheet' type='text/css' href='/statics/css/index.css' />
           { _.map ( props.loadableBundles, sourceState => {
             if ( sourceState && sourceState.file.endsWith( '.css' ) ){
               return ( <link key={ sourceState.publicPath } href={ `${ sourceState.publicPath }` } rel="stylesheet" /> );

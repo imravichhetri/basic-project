@@ -295,6 +295,40 @@ module.exports = {
               }
             ]
           },
+           {
+            test: /\.module\.(less)$/,
+            use: [
+              MiniCssExtractPlugin.loader,
+              {
+                loader: require.resolve('css-loader'),
+                options: {
+                  importLoaders: 2,
+                  sourceMap: true,
+                  modules: true,
+                  getLocalIdent: GetCSSModuleLocalIdent
+                }
+              },
+              {
+                loader: require.resolve('postcss-loader'),
+                options: {
+                  ident: 'postcss',
+                  plugins: () => ( [
+                    require('postcss-flexbugs-fixes'),
+                    AutoPrefixer( {
+                      flexbox: 'no-2009'
+                    } )
+                  ] ),
+                  sourceMap: true
+                }
+              },
+              {
+                loader: require.resolve( 'less-loader' ),
+                options: {
+                  sourceMap: true
+                }
+              }
+            ]
+          },
           {
             test: /\.(graphql|gql)$/,
             use: {

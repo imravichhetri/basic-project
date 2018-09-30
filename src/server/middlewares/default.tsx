@@ -23,7 +23,6 @@ import GQLSchema from '../graphql';
 import {
   ErrorLink
 } from '../utils/apollo-links';
-import JwtClient from '../utils/jwt_client';
 
 
 import LoadablesList from '../../../react-loadable.json';
@@ -32,7 +31,7 @@ import Html from "../../common/functional/Html";
 
 const loadablesStats = JSON.parse( Fs.readFileSync( Path.join( process.cwd(), 'dist', LoadablesList ) , 'utf8' ) );
 
-
+console.log( LoadablesList, loadablesStats,'loadablestats' );
 export const setCompressedJsUrl = ( req: Request, res: Response, next: NextFunction ) => {
   res.locals._jsFileUrl = (
       process.env.NODE_ENV !== 'development' &&
@@ -60,7 +59,7 @@ export const setCompressedJsUrl = ( req: Request, res: Response, next: NextFunct
 	res.end();
 };*/
 
-export const MwSetSessionData = async ( req: Request, res: Response, next: NextFunction ) => {
+/*export const MwSetSessionData = async ( req: Request, res: Response, next: NextFunction ) => {
   try {
     if ( req.cookies[ 'pdb-auth' ] ){
       // decode jwt to identify user
@@ -94,7 +93,7 @@ export const MwSetSessionData = async ( req: Request, res: Response, next: NextF
     next();
   }
 };
-
+*/
 export const MwDefault = async ( req: Request, res: Response ) => {
   const modules: string[] = [];
 
@@ -147,6 +146,7 @@ export const MwDefault = async ( req: Request, res: Response ) => {
   const loadableBundles = getBundles( loadablesStats, modules );
   const initialState = apolloClient.extract();
 
+  console.log( loadableBundles,'loadable Bundles' );
   const html = (
     <Html
       config={ ClientConfig }

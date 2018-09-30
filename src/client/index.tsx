@@ -7,7 +7,7 @@ import {
 import * as Loadable from 'react-loadable';
 
 // import '../common/utils/lodash_mixins';
-
+import '../../node_modules/antd/dist/antd.less';
 import App from '../common/containers/app';
 import './index.css';
 import ApolloClient from './utils/apollo_client';

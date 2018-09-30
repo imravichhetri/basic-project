@@ -14,6 +14,7 @@
   },
   "jsRules":{},
   "rules": {
+    "member-access": [true, "no-public"],
     "no-console": false,
   	"space-in-parens": [true, "always", { "exceptions": [ "empty" ] } ],
   	"semicolon": [ true, "always", "ignore-bound-class-methods" ],
