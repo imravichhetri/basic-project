@@ -18,9 +18,7 @@ Loadable.preloadReady().then( () => (
       <ApolloProvider.default
         client={ ApolloClient }
         >
-        <div>
-          <App/>
-        </div>
+        <App/>
       </ApolloProvider.default>
     ),
     document.getElementById( 'application' )
