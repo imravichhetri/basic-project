@@ -1,0 +1,48 @@
+#container {
+  display: flex;
+  flex-direction: column;
+
+  $headerHeight : 50px;
+  $footerHeight : 25px;
+
+  $sideNavWidth : 0px;
+
+  & > header {
+    height: $headerHeight;
+    background-color: #28a745;
+  }
+
+  & > footer {
+    height: $footerHeight;
+  }
+
+  & > section {
+    height: calc( 100vh - #{$headerHeight} - #{$footerHeight} );
+    display: flex;
+    & > aside {
+      width: $sideNavWidth;
+    }
+    & > main {
+      width: calc( 100vw - #{$sideNavWidth} );
+    }
+  }
+}
+
+/* div#container > header {
+  height: 50px;
+} */
+/* div#container > section {
+  height: calc( 100vh - 75px );
+  display: flex;
+
+
+  & > aside {
+    width: 100px;
+  }
+  main {
+    width: calc( 100vw - 100px );
+  }
+} */
+/* div#container > footer {
+  height: 25px;
+} */

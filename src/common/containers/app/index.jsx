@@ -7,7 +7,7 @@ import { Route, Switch }  from "react-router-dom";
 	get as _Get
 } from "lodash"; */
 
-// import Routes from "../../routes/index";
+import Routes from "../../routes/index";
 // import GetCurrentUser from "../../graphql/query/get_current_user.graphql";
 // import Login from "../login";
 // import { ROLE_DH_USER } from "../../../universal/enums/consts";
@@ -31,60 +31,31 @@ const Router = process.env.RUN_ENV === "client" ? require( "react-router-dom/Bro
 	}
 ) */
 export default class App extends ErrorBoundComponent {
-	/* _loginDependentRoutes = ( currentUser ) => {
-    	return (
-        <Routes
-          currentUser={currentUser}
-          />
-    	);
-    };
 
-  _refetchCurrentUser = () => {
-  	this.props.getCurrentUser.refetch();
-  };
-
-  _appRouter = ( isRegisterReq ) => {
-  	if ( this.props.getCurrentUser.loading || !this.props.getCurrentUser[ "CurrentUser" ] ){
-  		return (
-        <Login
-          isRegisterReq = { isRegisterReq === true }
-          getCurrentUser = { this.props.getCurrentUser }
-          />
-  		);
-  	} */
-
-  /* 	const currentUser = this.props.getCurrentUser[ "CurrentUser" ];
-
+  _appRouter = (  ) => {
   	return (
       <AppContext.Provider
         value={ {
-        	currentUser,
-        	refetchCurrentUser: this._refetchCurrentUser
         } }
         >
-        { this._loginDependentRoutes( currentUser ) }
+        <Routes />
       </AppContext.Provider>
   	);
 
   };
- */
+
   _render = () => {
-  	return "HELLA";
-  	/* return (
+  	return (
       <Router
         context={ this.props.context }
         location={ this.props.location }
         >
           <Switch>
             <Route
-              path="/register"
-              render={ this._appRouter.bind( this, true ) }
-              />
-            <Route
               render={ this._appRouter }
               />
           </Switch>
       </Router>
-  	); */
+  	);
   }
 }

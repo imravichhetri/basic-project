@@ -14,6 +14,8 @@ import {
 	ApolloProvider,
 	renderToStringWithData as RenderToStringWithData
 } from "react-apollo";
+import _ from "lodash";
+
 import ReactDOM from "react-dom/server";
 import Loadable from "react-loadable";
 import { getBundles } from "react-loadable/webpack";

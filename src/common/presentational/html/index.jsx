@@ -17,7 +17,7 @@ const Html = ( props ) => {
           {/* <link rel='shortcut icon' type='image/x-icon' href={ FavIcon } /> */}
           {/* <link rel='icon' type='image/x-icon' href={ FavIcon } /> */}
           <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"/>
-          <link rel='stylesheet' type='text/css' href='/statics/css/vendors.css' />
+          {/* <link rel='stylesheet' type='text/css' href='/statics/css/vendors.css' /> */}
           <link rel='stylesheet' type='text/css' href='/statics/css/index.css' />
           { _.map ( props.loadableBundles, sourceState => {
           	if ( sourceState && sourceState.file.endsWith( ".css" ) ){
@@ -41,7 +41,7 @@ const Html = ( props ) => {
             	__html: `window.__APOLLO_STATE__=${ JSON.stringify( props.initialState ).replace( /</g, "\\u003c" ) };`
             } }
             />
-          <script src='/statics/js/vendors.js' charSet='UTF-8' />
+          {/* <script src='/statics/js/vendors.js' charSet='UTF-8' /> */}
             { _.map( props.loadableBundles, ( sourceState ) => {
             	if ( sourceState && sourceState.file.endsWith( ".js" ) ){
             		return ( <script key={ sourceState.publicPath } src={ `${ sourceState.publicPath }` } /> );

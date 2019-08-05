@@ -9,8 +9,8 @@ import {
 
 const Router = router();
 
-Router.use( mwJsGzOptimization );
-Router.use( msGzipHeaders );
+// Router.use( mwJsGzOptimization );
+// Router.use( msGzipHeaders );
 Router.use( mwStatics );
 if ( mwStaticsClient ) {
 	Router.use( mwStaticsClient );
