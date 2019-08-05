@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODE_ENV=development concurrently -c blue,cyan,magenta \"webpack --watch --config ./build/config/server\" \"RUN_ENV=client webpack-dev-server --mode=development -d --inline --no-info --port 4002 --config ./build/config/client\"  \" sleep 3 &&  nodemon --inspect=9230 --watch dist dist/server.js\"",
+    "dev": "rm -rf dist && NODE_ENV=development concurrently -c blue,cyan,magenta \"webpack --watch --config ./build/config/server\" \"RUN_ENV=client webpack-dev-server --mode=development -d --inline --no-info --config ./build/config/client\"  \"sh ./build/scripts/server-dev.sh\"",
     "dev-server": "NODE_ENV=development concurrently -c blue,cyan,magenta \"webpack --watch --config ./build/config/server\" \" sleep 3 &&  nodemon --inspect=9230 --watch dist dist/server.js\"",
+    "start-dev-server": " sleep 3 &&  nodemon --inspect=9230 --watch dist dist/server.js",
     "client-build": "NODE_ENV=production webpack --mode=production --config ./build/config/server",
     "react-start": "webpack-dev-server --mode=development -d --inline --no-info --port 4001 --config ./build/config/client",
     "tslint-check": "tslint-config-prettier-check ./tslint.json"
@@ -30,6 +31,8 @@
     "apollo-server-express": "^1.3.6",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
+    "console-stamp": "^0.2.9",
+    "cookie-parser": "^1.4.4",
     "event-stream": "^4.0.1",
     "express": "^4.16.3",
     "graphql": "^0.13.2",

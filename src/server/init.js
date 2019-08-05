@@ -1,27 +1,29 @@
-import * as BodyParser from "body-parser";
-import { Application } from "express";
-import { each as _each, sortBy as _sort } from "lodash";
-import * as allRoutes from "./routes";
+import ConsoleStamp from "console-stamp";
+import Loadable from "react-loadable";
 
-/*import {
-  printAndReturn
-} from './services/test';*/
+import "../common/utils/lodash_mixins";
+import Config from "../config";
+import WebappServer from "./utils/webapp_server";
+// import {scheduleSnapshotGenerationJobs as ScheduleSnapshotGenerationJobs} from "../crons/snapshots/snapshot_generation_scheduler";
 
-// const value = printAndReturn( 1 );
-// console.log( value,'======value' );
-console.log( allRoutes, "allRoutes" );
-const init = async ( app ) => {
-  app.use( BodyParser.json().bind( BodyParser ));
-  _each(
-    _sort( allRoutes, ({ route, url }) => url ).reverse(),
-    ({ route, url }) => {
-      if ( url ) {
-        app.use( url, route );
-      } else {
-        app.use( route );
-      }
-    }
-  );
-};
+// import {getItemsBySnapshotId as GetItemsBySnapshotId} from "./services/snapshots/snapshot_service";
 
-export default init;
+// import "./services/content_source_config_service"
+ConsoleStamp( console, { pattern: " dd-mm-yyyy HH:MM:ss " } );
+
+/* const app = Express();
+const PORT = 4000; */
+
+const webappServer = new WebappServer();
+
+Loadable.preloadAll()
+	.then( () => {
+		webappServer.runServer( Config.webapp_port );
+	} )
+	.catch( ( e ) => {
+		console.log( "Error occurred", e );
+	} );
+
+// ScheduleSnapshotGenerationJobs();
+// GetItemsBySnapshotId( "867b2253-641c-4acb-84b7-b750f4933a11" );
+
