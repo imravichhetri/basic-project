@@ -10,7 +10,7 @@ import * as allRoutes from "./routes";
 // const value = printAndReturn( 1 );
 // console.log( value,'======value' );
 console.log( allRoutes, "allRoutes" );
-const init = async ( app: Application ) => {
+const init = async ( app ) => {
   app.use( BodyParser.json().bind( BodyParser ));
   _each(
     _sort( allRoutes, ({ route, url }) => url ).reverse(),

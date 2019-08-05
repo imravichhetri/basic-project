@@ -1,0 +1,56 @@
+{
+  "jwt_secret": "f359b338-8733-4ad4-8d31-5ae0488cfe41",
+  "obelix_be_host": "http://dh-obelix-prod.dailyhunt.in/obelix-engine/api/v1",
+  "publisher_be_host": "http://dh-publish-prod.dailyhunt.in/publish/dashboard/api/v1/",
+  "notification_api_url": "http://api-notifications.dailyhunt.in/api/v2/",
+  "obelix_dashboard_url" : "http://dh-obelix.dailyhunt.in/",
+  "google": {
+    "client_id": "783202326257-8mrtl6cjnvkq6s93f2al30lrpkt0rpbl.apps.googleusercontent.com",
+    "client_secret": "Ba00r57ktWKXXFmNlBYWsJTy",
+    "redirect_url": "http://dh-obelix.dailyhunt.in/google/auth-redirect"
+  },
+  "postgres": {
+    "db": "obelix",
+    "username": "ravi",
+    "password": "12345",
+    "host": "locahost",
+    "port":"5432"
+  },
+  "elasticSearch": {
+    "snapshot": {
+      "hosts": [
+        "http://localhost:9200"
+      ],
+      "indexPrefix": "obelix",
+      "typeName": "items"
+    },
+    "candidate": {
+      "hosts": [
+        "http://localhost:9200"
+      ],
+      "indexName": "candidates",
+      "typeName": "_doc"
+    }
+  },
+  "redis": {
+    "uri": "redis://localhost:6379"
+  },
+  "obelixBackend":{
+    "host":"http://localhost:4000",
+    "scenario":{
+      "create": "/create",
+      "update": "/update",
+      "findAll": "/findAll"
+    },
+    "scenario_time_delta": 600
+
+  },
+  "mailer": {
+    "mailServerHost": "smtp.gmail.com",
+    "mailServerport": 465,
+    "from": "dailyhunt.notification@verse.in",
+    "password" : "!@notialert"
+  },
+  "user_management_url" : "http://192.168.132.69:7000/dh/usermanagement/api/v1/",
+  "application_id" : "21be4570-b1dc-11e9-8eef-9bd6e8492c7b"
+}

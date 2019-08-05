@@ -1,0 +1,7 @@
+{
+  "user_posts_limit": 10,
+  "facebook": {
+    "auth_verify_host": "graph.facebook.com",
+    "app_id": "174447916759830"
+  }
+}

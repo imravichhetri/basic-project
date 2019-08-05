@@ -1,0 +1,48 @@
+{
+  "jwt_secret": "needs_to_be_changed_soon",
+  "obelix_be_host": "http://192.168.24.66:8080/obelix-engine/api/v1",
+  "notification_api_url": "http://localhost:8080/api/v2/",
+  "obelix_dashboard_url" : "http://localhost:4000",
+  "google": {
+    "client_id": "783202326257-8mrtl6cjnvkq6s93f2al30lrpkt0rpbl.apps.googleusercontent.com",
+    "client_secret": "Ba00r57ktWKXXFmNlBYWsJTy",
+    "redirect_url": "http://localhost:4000/google/auth-redirect"
+  },
+  "elasticSearch": {
+    "snapshot": {
+      "hosts": [
+        "http://localhost:9200"
+      ],
+      "indexName": "obelix",
+      "typeName": "items"
+    },
+    "candidate": {
+      "hosts": [
+        "http://192.168.10.217:9200"
+      ],
+      "indexPrefix": "candidates",
+      "typeName": "_doc"
+    }
+  },
+  "redis": {
+    "uri": "redis://localhost:6379"
+  },
+  "obelixBackend":{
+    "host":"http://localhost:4000",
+    "scenario":{
+      "create": "/create",
+      "update": "/update",
+      "findAll": "/findAll"
+    },
+    "scenario_time_delta": 600
+
+  },
+  "mailer": {
+    "mailServerHost": "smtp.gmail.com",
+    "mailServerport": 465,
+    "from": "dailyhunt.notification@verse.in",
+    "password" : "!@notialert"
+  },
+  "user_management_url" : "http://192.168.132.95:7000/dh/usermanagement/api/v1/",
+  "application_id" : "945cca50-59e6-11e9-a4ea-63031b0b2ea6"
+}

@@ -1,17 +1,18 @@
-import { graphiqlExpress, graphqlExpress } from "apollo-server-express";
+import {
+	graphiqlExpress as GraphiqlExpress,
+	graphqlExpress as GraphqlExpress
+} from "apollo-server-express";
 
-import schema from "../graphql";
-export const giqlExpress = graphiqlExpress({ endpointURL: "/graphql" });
-export const gqlExpress = graphqlExpress((req, res) => {
-	return {
-		schema,
+import { default as Schema } from "../graphql";
+
+export const giqlExpress = GraphiqlExpress( { endpointURL: "/graphql" } );
+
+export const gqlExpress = GraphqlExpress( ( req ) => {
+	return ( {
+		schema: Schema,
 		context: {
-			reqType: req.headers["auth-type"],
-			expressReq: req,
-			expressRes: res,
-			user: req["auth-user"],
+			user: ( req.session && req.session.data ) ? req.session.data : null
 			// authToken: req.cookies.auth,
-			session: req.session
 		}
-	};
-});
+	} );
+} );

@@ -1,7 +1,7 @@
-import { getUserDetails } from "../utils/apis";
+// import { getUserDetails } from "../utils/apis";
 
 export const getGithubUserDetails = async username => {
-	const { data } = await getUserDetails(username);
+	/* const { data } = await getUserDetails(username);
 	return {
 		username: data.login,
 		name: data.name,
@@ -9,5 +9,5 @@ export const getGithubUserDetails = async username => {
 		following: data.following,
 		repos: data.public_repos,
 		avatarUrl: data.avatar_url
-	};
+	}; */
 };

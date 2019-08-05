@@ -1,0 +1,15 @@
+{
+  "webapp_port": 4000,
+  "redis_port": "6379",
+  "redis_host_name": "mymaster",
+  "redis_sentinel_port": "26379",
+  "redis_sentinel_Port_2": "26380",
+  "redis_sentinel_port_3": "26381",
+  "redis_host": "192.168.3.123",
+  "dh_console_url":"http://192.168.3.41:3000/",
+  "google": {
+    "client_id": "783202326257-8mrtl6cjnvkq6s93f2al30lrpkt0rpbl.apps.googleusercontent.com",
+    "client_secret": "Ba00r57ktWKXXFmNlBYWsJTy",
+    "redirect_url": "http://localhost:4000/google/auth-redirect"
+  }
+}
