@@ -21,19 +21,19 @@
       "publicPath": "/statics/css/index.css"
     },
     {
+      "id": "?e10b",
+      "name": null,
+      "file": "css/index.css",
+      "publicPath": "/statics/css/index.css"
+    },
+    {
       "id": "./node_modules/webpack/hot sync ^\\.\\/log$",
       "name": "./node_modules/webpack/hot sync ^\\.\\/log$",
       "file": "css/index.css",
       "publicPath": "/statics/css/index.css"
     },
     {
-      "id": 1,
-      "name": null,
-      "file": "css/index.css",
-      "publicPath": "/statics/css/index.css"
-    },
-    {
-      "id": 2,
+      "id": "?0792",
       "name": null,
       "file": "css/index.css",
       "publicPath": "/statics/css/index.css"
@@ -45,31 +45,31 @@
       "publicPath": "/statics/js/index.js"
     },
     {
+      "id": "?e10b",
+      "name": null,
+      "file": "js/index.js",
+      "publicPath": "/statics/js/index.js"
+    },
+    {
       "id": "./node_modules/webpack/hot sync ^\\.\\/log$",
       "name": "./node_modules/webpack/hot sync ^\\.\\/log$",
       "file": "js/index.js",
       "publicPath": "/statics/js/index.js"
     },
     {
-      "id": 1,
+      "id": "?0792",
       "name": null,
       "file": "js/index.js",
       "publicPath": "/statics/js/index.js"
     },
     {
-      "id": 2,
-      "name": null,
-      "file": "js/index.js",
-      "publicPath": "/statics/js/index.js"
-    },
-    {
-      "id": 3,
+      "id": "?d4f6",
       "name": null,
       "file": "css/0.css",
       "publicPath": "/statics/css/0.css"
     },
     {
-      "id": 3,
+      "id": "?d4f6",
       "name": null,
       "file": "js/0.js",
       "publicPath": "/statics/js/0.js"
@@ -141,20 +141,6 @@
     {
       "id": "./src/common/containers/dashboard/styles.scss",
       "name": "./src/common/containers/dashboard/styles.scss",
-      "file": "js/index.js",
-      "publicPath": "/statics/js/index.js"
-    }
-  ],
-  "./utils/apollo_client": [
-    {
-      "id": "./src/client/utils/apollo_client.js",
-      "name": "./src/client/utils/apollo_client.js",
-      "file": "css/index.css",
-      "publicPath": "/statics/css/index.css"
-    },
-    {
-      "id": "./src/client/utils/apollo_client.js",
-      "name": "./src/client/utils/apollo_client.js",
       "file": "js/index.js",
       "publicPath": "/statics/js/index.js"
     }
@@ -239,6 +225,20 @@
     {
       "id": "./src/client/index.css",
       "name": "./src/client/index.css",
+      "file": "js/index.js",
+      "publicPath": "/statics/js/index.js"
+    }
+  ],
+  "./utils/apollo_client": [
+    {
+      "id": "./src/client/utils/apollo_client.js",
+      "name": "./src/client/utils/apollo_client.js",
+      "file": "css/index.css",
+      "publicPath": "/statics/css/index.css"
+    },
+    {
+      "id": "./src/client/utils/apollo_client.js",
+      "name": "./src/client/utils/apollo_client.js",
       "file": "js/index.js",
       "publicPath": "/statics/js/index.js"
     }
@@ -1927,22 +1927,6 @@
       "publicPath": "/statics/js/vendors.js"
     }
   ],
-  "./BaseClient": [
-    {
-      "id": "./node_modules/webpack-dev-server/client/clients/BaseClient.js",
-      "name": "./node_modules/webpack-dev-server/client/clients/BaseClient.js",
-      "file": "js/vendors.js",
-      "publicPath": "/statics/js/vendors.js"
-    }
-  ],
-  "./clients/SockJSClient": [
-    {
-      "id": "./node_modules/webpack-dev-server/client/clients/SockJSClient.js",
-      "name": "./node_modules/webpack-dev-server/client/clients/SockJSClient.js",
-      "file": "js/vendors.js",
-      "publicPath": "/statics/js/vendors.js"
-    }
-  ],
   "/home/ravindra/projects/node-projects/personal-projects/base-project/node_modules/webpack-dev-server/client/index.js?http://localhost:3002": [
     {
       "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:3002",
@@ -1967,46 +1951,6 @@
       "publicPath": "/statics/js/vendors.js"
     }
   ],
-  "./utils/createSocketUrl": [
-    {
-      "id": "./node_modules/webpack-dev-server/client/utils/createSocketUrl.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/createSocketUrl.js",
-      "file": "js/vendors.js",
-      "publicPath": "/statics/js/vendors.js"
-    }
-  ],
-  "./getCurrentScriptSource": [
-    {
-      "id": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
-      "file": "js/vendors.js",
-      "publicPath": "/statics/js/vendors.js"
-    }
-  ],
-  "./utils/log": [
-    {
-      "id": "./node_modules/webpack-dev-server/client/utils/log.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/log.js",
-      "file": "js/vendors.js",
-      "publicPath": "/statics/js/vendors.js"
-    }
-  ],
-  "./utils/reloadApp": [
-    {
-      "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-      "file": "js/vendors.js",
-      "publicPath": "/statics/js/vendors.js"
-    }
-  ],
-  "./utils/sendMessage": [
-    {
-      "id": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
-      "file": "js/vendors.js",
-      "publicPath": "/statics/js/vendors.js"
-    }
-  ],
   "sockjs-client/dist/sockjs": [
     {
       "id": "./node_modules/webpack-dev-server/node_modules/sockjs-client/dist/sockjs.js",
@@ -2015,7 +1959,7 @@
       "publicPath": "/statics/js/vendors.js"
     }
   ],
-  "./../webpack/buildin/global.js": [
+  "./../../../webpack/buildin/global.js": [
     {
       "id": "./node_modules/webpack/buildin/global.js",
       "name": "./node_modules/webpack/buildin/global.js",
@@ -2023,7 +1967,7 @@
       "publicPath": "/statics/js/vendors.js"
     }
   ],
-  "./../webpack/buildin/module.js": [
+  "./../../../webpack/buildin/module.js": [
     {
       "id": "./node_modules/webpack/buildin/module.js",
       "name": "./node_modules/webpack/buildin/module.js",

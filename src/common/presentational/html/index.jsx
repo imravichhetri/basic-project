@@ -41,7 +41,7 @@ const Html = ( props ) => {
             	__html: `window.__APOLLO_STATE__=${ JSON.stringify( props.initialState ).replace( /</g, "\\u003c" ) };`
             } }
             />
-          {/* <script src='/statics/js/vendors.js' charSet='UTF-8' /> */}
+          <script src='/statics/js/vendors.js' charSet='UTF-8' />
             { _.map( props.loadableBundles, ( sourceState ) => {
             	if ( sourceState && sourceState.file.endsWith( ".js" ) ){
             		return ( <script key={ sourceState.publicPath } src={ `${ sourceState.publicPath }` } /> );
