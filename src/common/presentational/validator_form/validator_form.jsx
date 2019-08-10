@@ -24,7 +24,6 @@ export default class ValidatorForm extends ErrorBoundComponent {
   	if ( e ){
   		e.preventDefault();
   	}
-  	debugger;
   	this.props.onSubmit( this._validate() );
   };
 

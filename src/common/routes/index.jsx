@@ -19,7 +19,7 @@ import Dashboard from "../containers/dashboard";
 import AppPermissionContext, {
 	CheckPermission
 } from "../containers/app/app_permission_context";
-import SearchHome from "../containers/search_home";
+import Home from "../containers/home";
 
 @WithRouter
 export default class AppRoutes extends React.Component {
@@ -27,8 +27,8 @@ export default class AppRoutes extends React.Component {
   	return (
       <React.Fragment>
         <Route
-          path="/search"
-          component={ SearchHome }
+          path="/"
+          component={ Home }
           />
       </React.Fragment>
   	);

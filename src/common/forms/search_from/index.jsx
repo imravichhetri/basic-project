@@ -22,7 +22,7 @@ const SearchForm = () => {
           field="genre"
           required
           />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" cssType="primary"/>
       </ValidatorForm>
     </div>
 	);

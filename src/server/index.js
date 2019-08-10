@@ -4,6 +4,7 @@ import Loadable from "react-loadable";
 import "../common/utils/lodash_mixins";
 import Config from "../config";
 import WebappServer from "./utils/webapp_server";
+import "./mongo";
 // import {scheduleSnapshotGenerationJobs as ScheduleSnapshotGenerationJobs} from "../crons/snapshots/snapshot_generation_scheduler";
 
 // import {getItemsBySnapshotId as GetItemsBySnapshotId} from "./services/snapshots/snapshot_service";

@@ -5,11 +5,15 @@
   $headerHeight : 50px;
   $footerHeight : 25px;
 
-  $sideNavWidth : 0px;
+  $sideNavWidth : 250px;
 
   & > header {
     height: $headerHeight;
-    background-color: #28a745;
+    background-color: #0d2149;
+
+    & > div.logo{
+      margin: 1rem 1rem;
+    }
   }
 
   & > footer {
@@ -21,11 +25,39 @@
     display: flex;
     & > aside {
       width: $sideNavWidth;
+      background-color: #0d2149;
     }
     & > main {
       width: calc( 100vw - #{$sideNavWidth} );
     }
   }
+}
+
+input[type="submit"]{
+  line-height: 1.499;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  height: 24px;
+  padding: 0 7px;
+  font-size: 15px;
+  border-radius: 4px;
+}
+input[ cssType="primary" ] {
+  color: #fff;
+  background-color: #4670a2;
+  border-color: #4670a2;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.12);
+  box-shadow: 0 2px 0 rgba(0,0,0,.045);
+}
+
+div.form_elem{
+  padding: 2px 0.2rem
 }
 
 /* div#container > header {

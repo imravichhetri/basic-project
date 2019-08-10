@@ -15,7 +15,7 @@ import ValidatorComponent from "./validator_component";
 import {
 	FormContextItem
 } from "./form_context";
-import "./styles.css"
+import "./styles.css";
 
 class TextField extends ValidatorComponent {
   static propTypes = {
@@ -58,9 +58,10 @@ class TextField extends ValidatorComponent {
   };
 
   _inputRenderer = () => {
-		return (
+  	return (
 			<input
 				id="textField"
+				value={ this.state.value }
 				type={this.props.inputType || "text"}
 				onChange={this._onChange}
 				placeholder={this.props.placeholderLabel}
@@ -68,7 +69,7 @@ class TextField extends ValidatorComponent {
 				disabled={this.props.disabled ? true : false}
 				required={ this.props.required }
 				/>
-		)
+  	);
   }
 
   _inputContainer = () => {
@@ -99,4 +100,4 @@ class TextField extends ValidatorComponent {
   }
 }
 
-export default FormContextItem( TextField )
+export default FormContextItem( TextField );

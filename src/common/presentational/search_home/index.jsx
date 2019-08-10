@@ -11,3 +11,4 @@ const SearchHome = () => {
 };
 
 export default SearchHome;
+
