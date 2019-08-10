@@ -1,0 +1,11 @@
+query GetCarByNumber($number:String!){
+  GetCarByNumber(number:$number){
+    status
+    id: _id
+    number
+    model
+    brand
+    color
+    createdTime
+  }
+}

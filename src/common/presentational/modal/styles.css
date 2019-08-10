@@ -1,0 +1,26 @@
+div.modal_container {
+  position: absolute;
+  z-index: 999;
+  background-color: #d9d9d9;
+  top: 25%;
+  left: 50%;
+  box-shadow: 1px 1px 10px;
+}
+
+div.modal_container > span {
+  position: relative;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+div.model_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

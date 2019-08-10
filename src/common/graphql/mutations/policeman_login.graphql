@@ -1,0 +1,10 @@
+mutation PolicemanLogin($username:String!, $password:String!){
+  PolicemanLogin(username:$username, password:$password){
+    username
+    id: _id
+    name
+    password
+    currentAssignedCase
+    createdTime
+  }
+}

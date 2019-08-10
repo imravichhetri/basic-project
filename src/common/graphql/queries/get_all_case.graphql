@@ -1,0 +1,11 @@
+query GetAllCases{
+  GetAllCases{
+    status
+    id:_id
+    number
+    model
+    brand
+    color
+    createdTime
+  }
+}

@@ -1,0 +1,58 @@
+.ReactVirtualized__Table__headerRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: bolder;
+  background-color: #0d2149;
+  color: white;
+}
+
+div.ReactVirtualized__Grid.ReactVirtualized__Table__Grid {
+    height: auto !important;
+}
+
+.ReactVirtualized__Table__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding:5px;
+	height:100px;
+	cursor: pointer;
+}
+
+.tabular_container a.tabular_links_odd {
+	color: inherit;
+	height: fit-content;
+}
+
+.table_tools_container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.tabular_container a.tabular_links_even {
+	color: inherit;
+}
+
+
+a.tabular_links_odd > .view_container {
+	background-color: #cccbcb;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer > .row_container_odd {
+	background-color: #E8EDF3;
+}
+
+
+.custom_table_hoc_class {
+	background-color: white;
+	margin: 1px;
+}
+
+
+.ReactVirtualized__Table__sortableHeaderIcon > path:first-child {
+	fill: white;
+}

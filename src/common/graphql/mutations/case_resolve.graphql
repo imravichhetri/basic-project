@@ -1,0 +1,7 @@
+mutation CaseResolve($number:String!, $status:String!,$username:String!){
+  CaseResolve(number:$number, status:$status, username:$username){
+    id:_id
+    status
+    number
+  }
+}

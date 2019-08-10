@@ -1,0 +1,11 @@
+mutation StolenCarReport($number:String!, $model:String!,$brand:String!, $color:String!){
+  StolenCarReport(brand:$brand, color:$color, number:$number, model:$model){
+    id:_id
+    number
+    status
+    model
+    brand
+    assignedPoliceId
+    color
+  }
+}
